@@ -40,7 +40,7 @@ std::mutex SearchIndex::_path_mutexes_guard;
 
 std::mutex& SearchIndex::getMutexForPath(boost::filesystem::path const& path) {
   std::lock_guard<std::mutex> guard(_path_mutexes_guard);
-  auto key = path.string();
+  auto key = path.lexically_normal().string();
   if (_path_mutexes.find(key) == _path_mutexes.end()) {
     _path_mutexes[key] = std::make_unique<std::mutex>();
   }
