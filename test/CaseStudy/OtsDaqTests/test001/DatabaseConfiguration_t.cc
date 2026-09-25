@@ -73,7 +73,7 @@ struct TestData {
 
   int _oldConfigCount = 0;
 
-  int rand_version() { return (srand(time(nullptr)), rand() % 88888 + 111111); }
+  int rand_version() { return (srand(time(nullptr)), rand() % 88888 + 211111); }
 };
 
 using namespace ots;

@@ -17,3 +17,6 @@ add_test(NAME OtsDaqTests_ReverseLookup_mongo_t
          WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR})
 set_tests_properties(OtsDaqTests_ReverseLookup_mongo_t PROPERTIES
     ENVIRONMENT "ARTDAQ_DATABASE_URI=${ARTDAQ_DATABASE_URI_MONGO}_reverselookup")
+
+install_headers()
+install_source()

@@ -18,3 +18,6 @@ add_test(NAME ${TEST_NAME}_mongo_${TEST_NUMBER}_t
          COMMAND DataIntegrity_t)
 set_tests_properties(${TEST_NAME}_mongo_${TEST_NUMBER}_t PROPERTIES
     ENVIRONMENT "ARTDAQ_DATABASE_URI=${ARTDAQ_DATABASE_URI_MONGO}_otsdb013")
+
+install_headers()
+install_source()
