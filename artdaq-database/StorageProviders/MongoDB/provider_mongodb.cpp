@@ -178,7 +178,8 @@ std::vector<JSONDocument> StorageProvider<JSONDocument, MongoDB>::findConfigurat
           goto exact_match;
         }
 
-        if (!std::equal(configuration_name_expected.begin(), configuration_name_expected.end(), name.begin())) {
+        if (name.size() < configuration_name_expected.size() ||
+            !std::equal(configuration_name_expected.begin(), configuration_name_expected.end(), name.begin())) {
           continue;
         }
 

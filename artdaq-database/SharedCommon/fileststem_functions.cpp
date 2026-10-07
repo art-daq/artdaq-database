@@ -1,6 +1,9 @@
 #include <libgen.h>
+#include <algorithm>
 #include <boost/filesystem.hpp>
 #include <boost/range/iterator_range.hpp>
+#include <cerrno>
+#include <cstdlib>
 
 #include "artdaq-database/SharedCommon/common.h"
 
@@ -34,6 +37,8 @@ std::vector<std::string> db::list_files(std::string const& path) {
       std::copy(suddir_list.begin(), suddir_list.end(), std::back_inserter(files));
     }
   }
+
+  std::sort(files.begin(), files.end());
 
   return files;
 }
@@ -144,18 +149,13 @@ bool db::read_buffer_from_file(std::string& buffer, std::string const& file_in_n
 }
 
 std::string db::make_temp_dir() {
-  auto tmp_dir_name = std::string{apiliteral::tmpdirprefix};
-  srand(time(nullptr));
-  tmp_dir_name.append(std::to_string(rand() % 9000000 + 1000000));
+  auto tmp_dir_template = std::string{apiliteral::tmpdirprefix}.append("XXXXXX");
 
-  auto system_cmd = std::string{"mkdir -p "};
-  system_cmd += tmp_dir_name;
-
-  if (0 != system(system_cmd.c_str())) {
-    throw runtime_error("make_temp_dir") << "make_temp_dir: Unable to create a temp directory; system_cmd=" << system_cmd;
+  if (mkdtemp(tmp_dir_template.data()) == nullptr) {
+    throw runtime_error("make_temp_dir") << "make_temp_dir: Unable to create a temp directory; template=" << tmp_dir_template << ", errno=" << errno;
   }
 
-  return tmp_dir_name;
+  return tmp_dir_template;
 }
 
 void db::delete_temp_dir(std::string const& tmp_dir_name) {
@@ -164,7 +164,7 @@ void db::delete_temp_dir(std::string const& tmp_dir_name) {
   auto prefix = std::string{apiliteral::tmpdirprefix};
   auto first(std::begin(prefix)), last(std::end(prefix));
 
-  confirm(std::equal(first, last, tmp_dir_name.begin()));
+  confirm(tmp_dir_name.size() >= prefix.size() && std::equal(first, last, tmp_dir_name.begin()));
 
   auto system_cmd = std::string{"rm -rf "}.append(tmp_dir_name);
 

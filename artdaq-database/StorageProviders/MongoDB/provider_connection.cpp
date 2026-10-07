@@ -63,6 +63,8 @@ DBConfig::DBConfig() : uri{std::string{literal::MONGOURI} + literal::hostname + 
 }
 
 std::shared_ptr<MongoDB> MongoDB::create(DBConfig const& config) {
+  getInstance();
+
   // reuse mongodb connection
   static std::mutex instances_mutex;
   static auto instances = std::unordered_map<std::string, std::shared_ptr<MongoDB>>();
@@ -74,7 +76,13 @@ std::shared_ptr<MongoDB> MongoDB::create(DBConfig const& config) {
   TLOG(11) << "StorageProvider::MongoDB::create " << key;
 
   std::lock_guard<std::mutex> guard(instances_mutex);
-  return instances.try_emplace(key, std::make_shared<MongoDB, DBConfig const&, PassKeyIdiom const&>(config, {})).first->second;
+
+  auto found = instances.find(key);
+  if (found != instances.end()) {
+    return found->second;
+  }
+
+  return instances.emplace(key, std::make_shared<MongoDB, DBConfig const&, PassKeyIdiom const&>(config, {})).first->second;
 }
 
 DBConfig::DBConfig(const std::string& uri_) : uri{uri_} { confirm(!uri_.empty()); }

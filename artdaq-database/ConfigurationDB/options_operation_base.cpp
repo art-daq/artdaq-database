@@ -191,7 +191,7 @@ std::string OperationBase::_getProviderFromURI() {
   auto tmpURI = getenv("ARTDAQ_DATABASE_URI") != nullptr ? db::expand_environment_variables("${ARTDAQ_DATABASE_URI}") : std::string("");
 
   auto tmpDB = std::string(apiliteral::provider::mongo);
-  if (std::equal(std::begin(tmpDB), std::end(tmpDB), tmpURI.begin())) {
+  if (tmpURI.size() >= tmpDB.size() && std::equal(std::begin(tmpDB), std::end(tmpDB), tmpURI.begin())) {
     return apiliteral::provider::mongo;
   }
 

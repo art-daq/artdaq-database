@@ -2,6 +2,7 @@
 #include "artdaq-database/StorageProviders/FileSystemDB/provider_filedb.h"
 
 #include <wordexp.h>
+#include <algorithm>
 #include <boost/filesystem.hpp>
 #include <boost/range/adaptors.hpp>
 
@@ -112,6 +113,8 @@ std::list<std::string> dbfs::find_subdirs(std::string const& d) {
     returnValue.emplace_back(dir_iter->path().filename().string());
   }
 
+  returnValue.sort();
+
   return returnValue;
 }
 
@@ -153,6 +156,8 @@ std::list<object_id_t> dbfs::find_documents(std::string const& d) {
 
     returnValue.emplace_back(file.string());
   }
+
+  returnValue.sort();
 
   return returnValue;
 }
@@ -197,6 +202,9 @@ file_paths_t dbfs::list_files_in_directory(boost::filesystem::path const& path, 
       result.push_back(iter->path());
     }
   }
+
+  std::sort(result.begin(), result.end());
+
   return result;
 }
 
