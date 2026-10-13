@@ -1,12 +1,12 @@
 #include "DatabaseConfigurationInterface.h"
 
-#include <algorithm>
-#include <iterator>
-
 #include "artdaq-database/ConfigurationDB/configurationdbifc.h"
 
 #include "artdaq-database/BasicTypes/basictypes.h"
 using artdaq::database::basictypes::JsonData;
+
+#include <algorithm>
+#include <iterator>
 
 using ots::DatabaseConfigurationInterface;
 using config_version_map_t = ots::DatabaseConfigurationInterface::config_version_map_t;
@@ -16,6 +16,8 @@ using VersionInfoList_t = db::ConfigurationInterface::VersionInfoList_t;
 
 constexpr auto default_dbprovider = "filesystem";
 constexpr auto default_entity = "OTSDAQROOT";
+
+// NOLINTBEGIN(runtime/output_format, runtime/exceptions)
 
 int DatabaseConfigurationInterface::fill(ConfigurationBase* configuration, int version) const noexcept {
   auto ifc = db::ConfigurationInterface{default_dbprovider};
@@ -300,3 +302,5 @@ DatabaseConfigurationInterface::result_t DatabaseConfigurationInterface::findCom
   compositions.clear();
   return {false, "Unknown exception"};
 }
+
+// NOLINTEND(runtime/output_format, runtime/exceptions)

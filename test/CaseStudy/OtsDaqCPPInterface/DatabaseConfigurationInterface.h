@@ -1,5 +1,5 @@
-#ifndef _ots_DatabaseConfigurationInterface_h_
-#define _ots_DatabaseConfigurationInterface_h_
+#ifndef ARTDAQ_DATABASE_TEST_CASESTUDY_OTSDAQCPPINTERFACE_DATABASECONFIGURATIONINTERFACE_H_
+#define ARTDAQ_DATABASE_TEST_CASESTUDY_OTSDAQCPPINTERFACE_DATABASECONFIGURATIONINTERFACE_H_
 
 #include "ConfigurationInterface.h"
 
@@ -56,4 +56,4 @@ class DatabaseConfigurationInterface : public ConfigurationInterface {
 };
 }  // namespace ots
 
-#endif
+#endif  // ARTDAQ_DATABASE_TEST_CASESTUDY_OTSDAQCPPINTERFACE_DATABASECONFIGURATIONINTERFACE_H_

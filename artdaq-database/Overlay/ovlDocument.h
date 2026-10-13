@@ -1,5 +1,5 @@
-#ifndef _ARTDAQ_DATABASE_OVERLAY_OVLDOCUMENT_H_
-#define _ARTDAQ_DATABASE_OVERLAY_OVLDOCUMENT_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_OVLDOCUMENT_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_OVLDOCUMENT_H_
 
 #include "artdaq-database/Overlay/common.h"
 #include "artdaq-database/Overlay/ovlFixedList.h"
@@ -63,4 +63,4 @@ using ovlDocumentUPtr_t = std::unique_ptr<ovlDocument>;
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_OVERLAY_OVLDOCUMENT_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_OVLDOCUMENT_H_

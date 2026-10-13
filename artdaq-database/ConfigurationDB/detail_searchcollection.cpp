@@ -16,6 +16,10 @@
 
 #include "artdaq-database/ConfigurationDB/options_operations.h"
 
+#include <string>
+#include <vector>
+#include <map>
+
 #ifdef TRACE_NAME
 #undef TRACE_NAME
 #endif

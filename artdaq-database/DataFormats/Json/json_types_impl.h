@@ -1,5 +1,5 @@
-#ifndef _ARTDAQ_DATABASE_JSONTYPES_IMPL_H_
-#define _ARTDAQ_DATABASE_JSONTYPES_IMPL_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_JSON_JSON_TYPES_IMPL_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_JSON_JSON_TYPES_IMPL_H_
 
 #include "artdaq-database/DataFormats/Json/json_types.h"
 
@@ -74,4 +74,4 @@ T& unwrapper<const value_t>::value_as() try {
 }  // namespace sharedtypes
 }  // namespace database
 }  // namespace artdaq
-#endif /* _ARTDAQ_DATABASE_JSONTYPES_IMPL_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_JSON_JSON_TYPES_IMPL_H_

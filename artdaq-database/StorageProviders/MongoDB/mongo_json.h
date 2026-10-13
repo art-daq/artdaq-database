@@ -1,5 +1,5 @@
-#ifndef _ARTDAQ_DATABASE_PROVIDER_MONGO_JSON_H_
-#define _ARTDAQ_DATABASE_PROVIDER_MONGO_JSON_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_MONGODB_MONGO_JSON_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_MONGODB_MONGO_JSON_H_
 
 #include <bsoncxx/document/value.hpp>
 #include <bsoncxx/json.hpp>
@@ -22,4 +22,4 @@ std::string to_json_unescaped(bsoncxx::document::view view);
 
 namespace compat = artdaq::database::mongo::compat;
 
-#endif /* _ARTDAQ_DATABASE_PROVIDER_MONGO_JSON_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_MONGODB_MONGO_JSON_H_

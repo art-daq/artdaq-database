@@ -1,5 +1,5 @@
-#ifndef _ARTDAQ_DATABASE_COMMON_H_
-#define _ARTDAQ_DATABASE_COMMON_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_SHAREDCOMMON_COMMON_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_SHAREDCOMMON_COMMON_H_
 
 #include <algorithm>
 #include <chrono>
@@ -22,7 +22,7 @@
 #include <boost/core/demangle.hpp>
 #include <boost/lexical_cast.hpp>
 
-#include "trace.h"
+#include "TRACE/trace.h"
 // #define extra_traces 0
 
-#endif /* _ARTDAQ_DATABASE_COMMON_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_SHAREDCOMMON_COMMON_H_

@@ -1,8 +1,9 @@
-#ifndef artdaq_database_BuildInfo_GetPackageBuildInfo_hh
-#define artdaq_database_BuildInfo_GetPackageBuildInfo_hh
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_BUILDINFO_GETPACKAGEBUILDINFO_HH_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_BUILDINFO_GETPACKAGEBUILDINFO_HH_
+
+#include "artdaq-core/Data/PackageBuildInfo.hh"
 
 #include <string>
-#include "artdaq-core/Data/PackageBuildInfo.hh"
 
 /**
  * \brief Namespace used to differentiate the artdaq_database version of GetPackageBuildInfo
@@ -22,4 +23,4 @@ struct GetPackageBuildInfo {
 };
 }  // namespace artdaqdatabase
 
-#endif /* artdaq_database_BuildInfo_GetPackageBuildInfo_hh */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_BUILDINFO_GETPACKAGEBUILDINFO_HH_

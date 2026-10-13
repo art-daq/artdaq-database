@@ -1,5 +1,5 @@
-#ifndef _ARTDAQ_DATABASE_OVERLAY_OVLCHNAGELOG_H_
-#define _ARTDAQ_DATABASE_OVERLAY_OVLCHNAGELOG_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_OVLCHANGELOG_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_OVLCHANGELOG_H_
 
 #include "artdaq-database/Overlay/common.h"
 #include "artdaq-database/Overlay/ovlKeyValue.h"
@@ -36,4 +36,4 @@ using ovlChangeLogUPtr_t = std::unique_ptr<ovlChangeLog>;
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_OVERLAY_OVLCHNAGELOG_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_OVLCHANGELOG_H_

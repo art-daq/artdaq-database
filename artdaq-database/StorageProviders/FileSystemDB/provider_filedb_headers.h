@@ -1,5 +1,5 @@
-#ifndef _ARTDAQ_DATABASE_PROVIDER_FILESYSTEM_HEADERS_H_
-#define _ARTDAQ_DATABASE_PROVIDER_FILESYSTEM_HEADERS_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_FILESYSTEMDB_PROVIDER_FILEDB_HEADERS_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_FILESYSTEMDB_PROVIDER_FILEDB_HEADERS_H_
 
 #include "artdaq-database/StorageProviders/FileSystemDB/provider_filedb.h"
 #include "artdaq-database/StorageProviders/FileSystemDB/provider_filedb_index.h"
@@ -27,4 +27,4 @@ using artdaq::database::docrecord::JSONDocumentBuilder;
 
 namespace jsonliteral = artdaq::database::dataformats::literal;
 
-#endif /* _ARTDAQ_DATABASE_PROVIDER_FILESYSTEM_HEADERS_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_FILESYSTEMDB_PROVIDER_FILEDB_HEADERS_H_

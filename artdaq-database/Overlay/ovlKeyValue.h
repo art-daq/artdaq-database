@@ -1,5 +1,5 @@
-#ifndef _ARTDAQ_DATABASE_OVERLAY_OVLKEYVALUE_H_
-#define _ARTDAQ_DATABASE_OVERLAY_OVLKEYVALUE_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_OVLKEYVALUE_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_OVLKEYVALUE_H_
 
 #include "artdaq-database/Overlay/common.h"
 
@@ -105,4 +105,4 @@ using ovlKeyValueUPtr_t = std::unique_ptr<ovlKeyValue>;
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_OVERLAY_OVLKEYVALUE_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_OVLKEYVALUE_H_

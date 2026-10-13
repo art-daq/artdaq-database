@@ -1,5 +1,5 @@
-#ifndef _ARTDAQ_DATABASE_DATAFORMATS_FHICL_HEALPERFUNCTIONS_H_
-#define _ARTDAQ_DATABASE_DATAFORMATS_FHICL_HEALPERFUNCTIONS_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_FHICL_HELPER_FUNCTIONS_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_FHICL_HELPER_FUNCTIONS_H_
 
 #include "artdaq-database/DataFormats/Fhicl/fhiclcpplib_includes.h"
 #include "artdaq-database/DataFormats/common.h"
@@ -24,4 +24,4 @@ void buffer_rtrim_lines(std::string& buffer) noexcept;
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_DATAFORMATS_FHICL_HEALPERFUNCTIONS_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_FHICL_HELPER_FUNCTIONS_H_
