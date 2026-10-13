@@ -5,6 +5,8 @@
 #include "artdaq-database/ConfigurationDB/dispatch_mongodb.h"
 #include "artdaq-database/ConfigurationDB/dispatch_ucondb.h"
 
+#include <string>
+
 namespace artdaq {
 namespace database {
 namespace configuration {

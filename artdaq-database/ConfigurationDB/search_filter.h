@@ -3,6 +3,8 @@
 
 #include "artdaq-database/ConfigurationDB/common.h"
 
+#include <tuple>
+
 namespace artdaq {
 namespace database {
 namespace configuration {

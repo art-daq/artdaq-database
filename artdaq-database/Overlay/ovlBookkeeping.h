@@ -7,6 +7,9 @@
 #include "artdaq-database/Overlay/ovlTimeStamp.h"
 #include "artdaq-database/Overlay/ovlUpdate.h"
 
+#include <memory>
+#include <string>
+
 namespace artdaq {
 namespace database {
 namespace overlay {

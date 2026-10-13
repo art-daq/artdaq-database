@@ -3,6 +3,7 @@
 
 #include <bsoncxx/builder/basic/document.hpp>
 #include <bsoncxx/builder/basic/kvp.hpp>
+#include <string>
 
 std::string compat::to_json(const bsoncxx::types::bson_value::view& value) {
   using bsoncxx::builder::basic::kvp;

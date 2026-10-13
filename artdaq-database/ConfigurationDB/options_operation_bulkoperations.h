@@ -2,10 +2,13 @@
 #define ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_OPTIONS_OPERATION_BULKOPERATIONS_H_
 
 #include <list>
+#include <memory>
 
 #include "artdaq-database/ConfigurationDB/options_operation_base.h"
 
 #include <boost/program_options.hpp>
+#include <string>
+#include <tuple>
 
 namespace bpo = boost::program_options;
 

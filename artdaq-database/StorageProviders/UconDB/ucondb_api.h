@@ -5,6 +5,9 @@
 #include "artdaq-database/StorageProviders/UconDB/provider_ucondb.h"
 #include "artdaq-database/StorageProviders/storage_providers.h"
 
+#include <list>
+#include <string>
+
 namespace artdaq {
 namespace database {
 namespace ucon {

@@ -6,6 +6,10 @@
 #include "artdaq-database/Overlay/ovlKeyValue.h"
 #include "artdaq-database/Overlay/ovlKeyValueWithMask.h"
 
+#include <memory>
+#include <string>
+#include <utility>
+
 namespace artdaq {
 namespace database {
 namespace overlay {

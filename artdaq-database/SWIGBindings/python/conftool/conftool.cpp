@@ -3,6 +3,8 @@
 
 #include "conftool.h"
 
+#include <string>
+
 namespace impl = artdaq::database::configuration::json;
 namespace fjlib = artdaq::database::fhicljson;
 

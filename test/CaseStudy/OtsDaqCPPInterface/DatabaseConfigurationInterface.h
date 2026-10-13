@@ -7,6 +7,8 @@
 #include <map>
 #include <set>
 #include <stdexcept>
+#include <string>
+#include <utility>
 
 namespace ots {
 

@@ -21,6 +21,11 @@
 #include <mongocxx/instance.hpp>
 #include <mongocxx/options/find.hpp>
 #include <mongocxx/pipeline.hpp>
+#include <list>
+#include <map>
+#include <set>
+#include <string>
+#include <vector>
 
 #ifdef TRACE_NAME
 #undef TRACE_NAME

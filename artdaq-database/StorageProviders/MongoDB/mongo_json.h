@@ -4,6 +4,7 @@
 #include <bsoncxx/document/value.hpp>
 #include <bsoncxx/json.hpp>
 #include <bsoncxx/types/value.hpp>
+#include <string>
 
 namespace artdaq {
 namespace database {

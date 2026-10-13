@@ -5,6 +5,9 @@
 
 #include <boost/filesystem.hpp>
 #include <utility>
+#include <memory>
+#include <string>
+#include <vector>
 
 #ifdef TRACE_NAME
 #undef TRACE_NAME

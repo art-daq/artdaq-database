@@ -4,6 +4,7 @@
 #include "artdaq-database/ConfigurationDB/options_operation_base.h"
 
 #include <boost/program_options.hpp>
+#include <string>
 
 namespace bpo = boost::program_options;
 

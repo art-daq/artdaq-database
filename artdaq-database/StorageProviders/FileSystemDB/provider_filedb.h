@@ -5,6 +5,9 @@
 
 #include <boost/filesystem.hpp>
 #include <vector>
+#include <memory>
+#include <list>
+#include <string>
 
 namespace artdaq {
 namespace database {

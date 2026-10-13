@@ -1,11 +1,6 @@
 #ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_CONFIGURATIONDBIFC_BASE_H_
 #define ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_CONFIGURATIONDBIFC_BASE_H_
 
-// #include <memory>
-// #include <string>
-// #include <type_traits>
-#include <utility>
-
 #include "artdaq-database/BasicTypes/basictypes.h"
 
 #include "artdaq-database/ConfigurationDB/configurationdb.h"
@@ -13,6 +8,9 @@
 #include "artdaq-database/DataFormats/Json/json_writer.h"
 
 #include "artdaq-database/ConfigurationDB/options_operation_managedocument.h"
+
+#include <utility>
+#include <string>
 
 namespace debug {
 std::string demangle(const char*);

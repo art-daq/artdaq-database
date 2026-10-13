@@ -3,6 +3,8 @@
 
 #include "artdaq-database/SharedCommon/returned_result.h"
 
+#include <string>
+
 namespace artdaq {
 namespace database {
 namespace configuration {

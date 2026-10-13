@@ -16,6 +16,10 @@
 #include "artdaq-database/Overlay/ovlFixedList.h"
 #include "artdaq-database/Overlay/ovlMovableList.h"
 
+#include <memory>
+#include <string>
+#include <utility>
+
 namespace artdaq {
 namespace database {
 namespace overlay {

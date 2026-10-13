@@ -3,6 +3,10 @@
 
 #include "artdaq-database/Overlay/common.h"
 
+#include <memory>
+#include <string>
+#include <utility>
+
 namespace artdaq {
 namespace database {
 namespace overlay {

@@ -3,6 +3,7 @@
 #include "artdaq-database/ConfigurationDB/options_operation_base.h"
 
 #include <utility>
+#include <string>
 #include "artdaq-database/ConfigurationDB/shared_helper_functions.h"
 
 #include "artdaq-database/DataFormats/shared_literals.h"

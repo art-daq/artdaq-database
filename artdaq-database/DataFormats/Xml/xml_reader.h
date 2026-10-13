@@ -6,6 +6,8 @@
 #include "artdaq-database/DataFormats/Json/json_types.h"
 #include "artdaq-database/DataFormats/Xml/xml_types.h"
 
+#include <string>
+
 namespace artdaq {
 namespace database {
 namespace xml {

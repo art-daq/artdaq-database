@@ -24,6 +24,10 @@
 #include <boost/variant.hpp>
 
 #include <utility>
+#include <memory>
+#include <map>
+#include <string>
+#include <vector>
 
 #ifdef TRACE_NAME
 #undef TRACE_NAME

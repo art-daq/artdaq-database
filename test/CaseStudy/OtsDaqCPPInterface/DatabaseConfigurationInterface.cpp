@@ -7,6 +7,9 @@ using artdaq::database::basictypes::JsonData;
 
 #include <algorithm>
 #include <iterator>
+#include <set>
+#include <string>
+#include <list>
 
 using ots::DatabaseConfigurationInterface;
 using config_version_map_t = ots::DatabaseConfigurationInterface::config_version_map_t;

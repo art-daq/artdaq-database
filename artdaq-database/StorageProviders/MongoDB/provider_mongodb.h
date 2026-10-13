@@ -5,6 +5,8 @@
 
 #include <mongocxx/client.hpp>
 #include <mongocxx/instance.hpp>
+#include <memory>
+#include <string>
 
 namespace artdaq {
 namespace database {

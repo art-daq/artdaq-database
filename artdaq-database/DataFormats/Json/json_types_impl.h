@@ -3,6 +3,8 @@
 
 #include "artdaq-database/DataFormats/Json/json_types.h"
 
+#include <string>
+
 using artdaq::database::json::array_t;
 using artdaq::database::json::object_t;
 using artdaq::database::json::value_t;

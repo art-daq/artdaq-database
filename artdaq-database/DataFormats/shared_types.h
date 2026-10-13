@@ -6,6 +6,8 @@
 
 #include <boost/optional.hpp>
 #include <boost/variant.hpp>
+#include <list>
+#include <utility>
 
 namespace artdaq {
 namespace database {

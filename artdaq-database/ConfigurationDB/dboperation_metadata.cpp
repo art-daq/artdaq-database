@@ -6,6 +6,8 @@
 #include "artdaq-database/ConfigurationDB/shared_helper_functions.h"
 #include "artdaq-database/DataFormats/shared_literals.h"
 
+#include <string>
+
 #ifdef TRACE_NAME
 #undef TRACE_NAME
 #endif

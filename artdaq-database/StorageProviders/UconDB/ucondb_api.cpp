@@ -3,6 +3,8 @@
 #include "artdaq-database/StorageProviders/UconDB/provider_ucondb_headers.h"
 
 #include <curl/curl.h>
+#include <list>
+#include <string>
 
 // https://cdcvs.fnal.gov/redmine/projects/ucondb/wiki/Proposal
 

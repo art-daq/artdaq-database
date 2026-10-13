@@ -3,6 +3,8 @@
 #include "artdaq-database/DataFormats/Conf/conf_writer.h"
 #include "artdaq-database/DataFormats/Conf/convertconf2json.h"
 
+#include <string>
+
 #ifdef TRACE_NAME
 #undef TRACE_NAME
 #endif

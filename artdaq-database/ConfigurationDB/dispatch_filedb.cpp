@@ -12,6 +12,10 @@
 #include <regex>
 #include <set>
 #include <sstream>
+#include <list>
+#include <string>
+#include <utility>
+#include <vector>
 
 #ifdef TRACE_NAME
 #undef TRACE_NAME

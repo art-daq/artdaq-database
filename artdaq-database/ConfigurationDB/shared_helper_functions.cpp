@@ -1,6 +1,7 @@
 #include <libgen.h>
 #include <boost/filesystem.hpp>
 #include <boost/range/iterator_range.hpp>
+#include <string>
 
 #include "artdaq-database/ConfigurationDB/shared_helper_functions.h"
 #include "artdaq-database/SharedCommon/sharedcommon_common.h"

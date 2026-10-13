@@ -3,6 +3,9 @@
 
 #include "artdaq-database/JsonDocument/common.h"
 
+#include <string>
+#include <vector>
+
 namespace artdaq {
 namespace database {
 namespace basictypes {

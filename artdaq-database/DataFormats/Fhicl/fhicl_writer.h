@@ -7,6 +7,8 @@
 
 #include <boost/spirit/home/karma/char/char.hpp>
 #include <boost/spirit/include/karma.hpp>
+#include <string>
+#include <vector>
 
 namespace artdaq {
 namespace database {

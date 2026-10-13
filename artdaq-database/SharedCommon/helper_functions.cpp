@@ -10,6 +10,8 @@
 #include <ctime>
 #include <fstream>
 #include <regex>
+#include <algorithm>
+#include <string>
 
 #ifdef TRACE_NAME
 #undef TRACE_NAME

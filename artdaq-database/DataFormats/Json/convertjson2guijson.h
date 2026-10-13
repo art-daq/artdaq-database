@@ -5,6 +5,9 @@
 #include "artdaq-database/DataFormats/common.h"
 #include "artdaq-database/DataFormats/shared_literals.h"
 
+#include <string>
+#include <utility>
+
 namespace artdaq {
 namespace database {
 namespace json {

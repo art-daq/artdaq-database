@@ -22,6 +22,8 @@
 #include <mongocxx/options/find.hpp>
 #include <mongocxx/pipeline.hpp>
 
+#include <string>
+
 #ifdef TRACE_NAME
 #undef TRACE_NAME
 #endif

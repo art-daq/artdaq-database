@@ -2,6 +2,10 @@
 #include "artdaq-database/ConfigurationDB/common.h"
 
 #include <cassert>
+#include <algorithm>
+#include <list>
+#include <string>
+#include <utility>
 
 #ifdef TRACE_NAME
 #undef TRACE_NAME

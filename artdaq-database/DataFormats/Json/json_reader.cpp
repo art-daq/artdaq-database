@@ -1,6 +1,9 @@
 #include "artdaq-database/DataFormats/Json/json_reader.h"
 #include "artdaq-database/DataFormats/common.h"
 
+#include <string>
+#include <utility>
+
 #ifdef TRACE_NAME
 #undef TRACE_NAME
 #endif

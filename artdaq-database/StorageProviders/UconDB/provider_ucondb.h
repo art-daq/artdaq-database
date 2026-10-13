@@ -3,6 +3,9 @@
 
 #include "artdaq-database/StorageProviders/storage_providers.h"
 
+#include <memory>
+#include <string>
+
 namespace artdaq {
 namespace database {
 namespace ucon {

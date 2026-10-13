@@ -5,6 +5,7 @@
 #include "artdaq-database/DataFormats/common.h"
 
 #include <boost/spirit/include/karma.hpp>
+#include <string>
 
 namespace artdaq {
 namespace database {

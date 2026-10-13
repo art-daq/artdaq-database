@@ -6,6 +6,7 @@
 #include "artdaq-database/SharedCommon/configuraion_api_literals.h"
 
 #include <boost/program_options.hpp>
+#include <string>
 
 namespace bpo = boost::program_options;
 

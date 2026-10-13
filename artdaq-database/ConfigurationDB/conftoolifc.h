@@ -4,6 +4,9 @@
 #include "artdaq-database/ConfigurationDB/common.h"
 #include "artdaq-database/ConfigurationDB/configuration_common.h"
 
+#include <memory>
+#include <string>
+
 namespace db = artdaq::database;
 namespace cf = db::configuration;
 namespace cfo = cf::options;

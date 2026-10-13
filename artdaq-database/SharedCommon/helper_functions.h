@@ -8,6 +8,7 @@
 #include <memory>
 #include <sstream>
 #include <string>
+#include <algorithm>
 
 #include "artdaq-database/SharedCommon/shared_datatypes.h"
 

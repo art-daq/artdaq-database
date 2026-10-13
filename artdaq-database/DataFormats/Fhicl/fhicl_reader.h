@@ -20,6 +20,11 @@
 #include <boost/spirit/include/qi.hpp>
 #include <boost/spirit/include/support_line_pos_iterator.hpp>
 
+#include <string>
+#include <map>
+#include <utility>
+#include <vector>
+
 namespace artdaq {
 namespace database {
 namespace fhicl {

@@ -4,6 +4,8 @@
 #include "artdaq-database/DataFormats/Fhicl/fhiclcpplib_includes.h"
 #include "artdaq-database/DataFormats/common.h"
 
+#include <string>
+
 namespace artdaq {
 namespace database {
 namespace fhicl {

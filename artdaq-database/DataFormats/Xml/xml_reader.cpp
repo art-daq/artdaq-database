@@ -6,6 +6,7 @@
 
 #include <boost/property_tree/ptree.hpp>
 #include <boost/property_tree/xml_parser.hpp>
+#include <string>
 
 #ifdef TRACE_NAME
 #undef TRACE_NAME

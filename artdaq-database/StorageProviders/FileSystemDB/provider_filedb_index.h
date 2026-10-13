@@ -9,6 +9,10 @@
 #include <map>
 #include <memory>
 #include <mutex>
+#include <algorithm>
+#include <string>
+#include <utility>
+#include <vector>
 
 namespace artdaq {
 namespace database {

@@ -4,6 +4,8 @@
 #include "artdaq-database/Overlay/common.h"
 #include "artdaq-database/Overlay/ovlKeyValue.h"
 
+#include <string>
+
 namespace artdaq {
 namespace database {
 namespace overlay {

@@ -2,6 +2,7 @@
 #define ARTDAQ_DATABASE_ARTDAQ_DATABASE_SHAREDCOMMON_SHARED_EXCEPTIONS_H_
 
 #include <exception>
+#include <string>
 #include "cetlib_except/coded_exception.h"
 
 namespace debug {

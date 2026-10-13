@@ -1,14 +1,18 @@
 #ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_CONFIGURATIONDBIFC_H_
 #define ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_CONFIGURATIONDBIFC_H_
 
-#include <map>
-#include <set>
-
 #include "artdaq-database/ConfigurationDB/Multitasker.h"
 #include "artdaq-database/ConfigurationDB/configurationdbifc_base.h"
 #include "artdaq-database/JsonDocument/JSONDocumentBuilder.h"
 #include "dboperation_findcompositions.h"
 #include "options_operation_manageconfigs.h"
+
+#include <map>
+#include <set>
+#include <string>
+#include <algorithm>
+#include <list>
+#include <utility>
 
 using debug::demangle;
 

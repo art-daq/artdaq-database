@@ -1,6 +1,8 @@
 
 #include "artdaq-database/Overlay/ovlUpdate.h"
 
+#include <string>
+
 using namespace artdaq::database;
 using namespace artdaq::database::overlay;
 using namespace artdaq::database::result;

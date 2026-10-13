@@ -5,6 +5,11 @@
 #include "artdaq-database/JsonDocument/common.h"
 #include "artdaq-database/Overlay/JSONDocumentOverlay.h"
 
+#include <memory>
+#include <list>
+#include <string>
+#include <utility>
+
 namespace artdaq {
 namespace database {
 namespace docrecord {

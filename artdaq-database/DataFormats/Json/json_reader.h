@@ -5,6 +5,8 @@
 #include "artdaq-database/DataFormats/common.h"
 
 #include <boost/spirit/include/qi.hpp>
+#include <string>
+#include <utility>
 
 namespace artdaq {
 namespace database {

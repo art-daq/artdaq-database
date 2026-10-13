@@ -3,6 +3,8 @@
 
 #include "artdaq-database/SharedCommon/shared_exceptions.h"
 
+#include <string>
+
 namespace artdaq {
 namespace database {
 namespace docrecord {

@@ -1,11 +1,14 @@
 #include "DatabaseConfigurationInterface.h"
 
-#include <algorithm>
-#include <iterator>
-
 #include "artdaq-database/ConfigurationDB/configurationdbifc.h"
 
 #include "artdaq-database/BasicTypes/basictypes.h"
+
+#include <algorithm>
+#include <iterator>
+#include <set>
+#include <string>
+
 using artdaq::database::basictypes::JsonData;
 
 using ots::DatabaseConfigurationInterface;

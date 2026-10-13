@@ -1,6 +1,10 @@
 #include "artdaq-database/JsonDocument/JSONDocumentBuilder.h"
 
 #include <utility>
+#include <memory>
+#include <algorithm>
+#include <list>
+#include <string>
 #include "artdaq-database/JsonDocument/common.h"
 
 #ifdef TRACE_NAME
