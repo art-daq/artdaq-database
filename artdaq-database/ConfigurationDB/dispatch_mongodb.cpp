@@ -11,10 +11,10 @@
 #include "artdaq-database/SharedCommon/helper_functions.h"
 #include "artdaq-database/StorageProviders/MongoDB/provider_mongodb.h"
 
+#include <list>
+#include <string>
 #include <utility>
 #include <vector>
-#include <string>
-#include <list>
 
 #ifdef TRACE_NAME
 #undef TRACE_NAME

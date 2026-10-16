@@ -4,10 +4,10 @@
 #include "artdaq-database/StorageProviders/storage_providers.h"
 
 #include <boost/filesystem.hpp>
-#include <vector>
-#include <memory>
 #include <list>
+#include <memory>
 #include <string>
+#include <vector>
 
 namespace artdaq {
 namespace database {

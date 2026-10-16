@@ -3,9 +3,9 @@
 
 #include "artdaq-database/StorageProviders/storage_providers.h"
 
+#include <memory>
 #include <mongocxx/client.hpp>
 #include <mongocxx/instance.hpp>
-#include <memory>
 #include <string>
 
 namespace artdaq {

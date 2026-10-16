@@ -23,10 +23,10 @@
 
 #include <boost/variant.hpp>
 
-#include <utility>
-#include <memory>
 #include <map>
+#include <memory>
 #include <string>
+#include <utility>
 #include <vector>
 
 #ifdef TRACE_NAME

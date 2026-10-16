@@ -1,6 +1,7 @@
 #ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_SHAREDCOMMON_HELPER_FUNCTIONS_H_
 #define ARTDAQ_DATABASE_ARTDAQ_DATABASE_SHAREDCOMMON_HELPER_FUNCTIONS_H_
 
+#include <algorithm>
 #include <cassert>
 #include <chrono>
 #include <iostream>
@@ -8,7 +9,6 @@
 #include <memory>
 #include <sstream>
 #include <string>
-#include <algorithm>
 
 #include "artdaq-database/SharedCommon/shared_datatypes.h"
 

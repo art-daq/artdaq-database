@@ -9,7 +9,6 @@
 #include <string>
 #include <utility>
 
-
 namespace artdaq {
 namespace database {
 namespace json {

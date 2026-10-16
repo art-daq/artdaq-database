@@ -5,8 +5,8 @@
 #include "artdaq-database/JsonDocument/common.h"
 #include "artdaq-database/Overlay/JSONDocumentOverlay.h"
 
-#include <memory>
 #include <list>
+#include <memory>
 #include <string>
 #include <utility>
 

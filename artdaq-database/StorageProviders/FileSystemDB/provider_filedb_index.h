@@ -5,11 +5,11 @@
 #include "artdaq-database/StorageProviders/common.h"
 #include "artdaq-database/StorageProviders/storage_providers.h"
 
+#include <algorithm>
 #include <boost/filesystem.hpp>
 #include <map>
 #include <memory>
 #include <mutex>
-#include <algorithm>
 #include <string>
 #include <utility>
 #include <vector>

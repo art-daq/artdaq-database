@@ -1,8 +1,8 @@
-#include "DatabaseConfigurationInterface.h"
 #include "ConfigurationInterface.h"
+#include "DatabaseConfigurationInterface.h"
 
-#include "artdaq-database/ConfigurationDB/configurationdbifc.h"
 #include "artdaq-database/BasicTypes/basictypes.h"
+#include "artdaq-database/ConfigurationDB/configurationdbifc.h"
 
 #include <algorithm>
 #include <iterator>

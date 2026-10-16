@@ -12,8 +12,8 @@
 
 #include "artdaq-database/BasicTypes/base64.h"
 
-#include <utility>
 #include <string>
+#include <utility>
 
 #ifdef TRACE_NAME
 #undef TRACE_NAME
@@ -23,7 +23,7 @@
 
 namespace regex {
 constexpr auto parse_base64data = R"lit([\s\S]*"base64"\s*:\s*"(\S*?)")lit";
-} // namespace regex
+}  // namespace regex
 
 namespace artdaq {
 namespace database {

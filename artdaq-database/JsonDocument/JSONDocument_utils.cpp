@@ -4,9 +4,9 @@
 #include "artdaq-database/JsonDocument/common.h"
 
 #include <boost/filesystem.hpp>
-#include <utility>
 #include <memory>
 #include <string>
+#include <utility>
 #include <vector>
 
 #ifdef TRACE_NAME

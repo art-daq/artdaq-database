@@ -44,7 +44,7 @@ std::string base64_encode(unsigned char const* bytes_to_encode, unsigned int in_
   unsigned char char_array_4[4];
 
   while ((in_len--) != 0u) {
-    char_array_3[i++] = *(bytes_to_encode++); // NOLINT
+    char_array_3[i++] = *(bytes_to_encode++);  // NOLINT
     if (i == 3) {
       char_array_4[0] = (char_array_3[0] & 0xfc) >> 2;
       char_array_4[1] = ((char_array_3[0] & 0x03) << 4) + ((char_array_3[1] & 0xf0) >> 4);
@@ -89,7 +89,7 @@ std::string base64_decode(std::string const& encoded_string) {
   std::string ret;
 
   while (((in_len--) != 0) && (encoded_string[in_] != '=') && is_base64(encoded_string[in_])) {
-    char_array_4[i++] = encoded_string[in_]; // NOLINT
+    char_array_4[i++] = encoded_string[in_];  // NOLINT
     in_++;
     if (i == 4) {
       for (i = 0; i < 4; i++) {
@@ -128,4 +128,6 @@ std::string base64_decode(std::string const& encoded_string) {
   return ret;
 }
 
-std::string base64_encode(std::string const& str) { return base64_encode(reinterpret_cast<const unsigned char*>(str.c_str()), str.length()); } // NOLINT
+std::string base64_encode(std::string const& str) {
+  return base64_encode(reinterpret_cast<const unsigned char*>(str.c_str()), str.length());
+}  // NOLINT

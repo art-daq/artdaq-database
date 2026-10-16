@@ -9,13 +9,13 @@
 #include "artdaq-database/BasicTypes/data_json.h"
 #include "artdaq-database/DataFormats/Json/json_common.h"
 
-#include <fstream>
-#include <memory>
 #include <algorithm>
-#include <utility>
 #include <boost/filesystem.hpp>
+#include <fstream>
 #include <map>
+#include <memory>
 #include <string>
+#include <utility>
 #include <vector>
 
 #ifdef TRACE_NAME

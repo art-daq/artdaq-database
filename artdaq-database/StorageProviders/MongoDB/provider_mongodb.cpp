@@ -17,12 +17,12 @@
 #include <bsoncxx/types.hpp>
 #include <bsoncxx/types/value.hpp>
 
+#include <list>
+#include <map>
 #include <mongocxx/client.hpp>
 #include <mongocxx/instance.hpp>
 #include <mongocxx/options/find.hpp>
 #include <mongocxx/pipeline.hpp>
-#include <list>
-#include <map>
 #include <set>
 #include <string>
 #include <vector>

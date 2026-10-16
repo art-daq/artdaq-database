@@ -9,8 +9,8 @@
 
 #include "artdaq-database/ConfigurationDB/options_operation_managedocument.h"
 
-#include <utility>
 #include <string>
+#include <utility>
 
 namespace debug {
 std::string demangle(const char*);

@@ -1,8 +1,8 @@
 #include "artdaq-database/ConfigurationDB/Multitasker.h"
 #include "artdaq-database/ConfigurationDB/common.h"
 
-#include <cassert>
 #include <algorithm>
+#include <cassert>
 #include <list>
 #include <string>
 #include <utility>

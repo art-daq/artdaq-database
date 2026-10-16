@@ -9,10 +9,10 @@
 #include "artdaq-database/StorageProviders/FileSystemDB/provider_filedb.h"
 
 #include <cstdio>
+#include <list>
 #include <regex>
 #include <set>
 #include <sstream>
-#include <list>
 #include <string>
 #include <utility>
 #include <vector>

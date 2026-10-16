@@ -7,11 +7,11 @@
 #include "dboperation_findcompositions.h"
 #include "options_operation_manageconfigs.h"
 
+#include <algorithm>
+#include <list>
 #include <map>
 #include <set>
 #include <string>
-#include <algorithm>
-#include <list>
 #include <utility>
 
 using debug::demangle;

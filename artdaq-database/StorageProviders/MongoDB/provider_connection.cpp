@@ -23,12 +23,12 @@
 #include <mongocxx/options/find.hpp>
 #include <mongocxx/pipeline.hpp>
 
+#include <memory>
 #include <mutex>
+#include <string>
 #include <thread>
 #include <unordered_map>
 #include <utility>
-#include <memory>
-#include <string>
 
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
