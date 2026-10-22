@@ -3,7 +3,6 @@
 
 #include "artdaq-database/BasicTypes/data_fhicl.h"
 
-#include <utility>
 #include "artdaq-database/BasicTypes/data_fhicl_fusion.h"
 
 #include "artdaq-database/DataFormats/Fhicl/fhicl_common.h"
@@ -15,6 +14,9 @@
 
 #include "artdaq-database/BasicTypes/base64.h"
 
+#include <string>
+#include <utility>
+
 #ifdef TRACE_NAME
 #undef TRACE_NAME
 #endif
@@ -23,7 +25,7 @@
 
 namespace regex {
 constexpr auto parse_base64data = R"lit([\s\S]*"base64"\s*:\s*"(\S*?)")lit";
-}
+}  // namespace regex
 
 namespace artdaq {
 namespace database {

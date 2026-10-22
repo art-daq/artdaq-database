@@ -1,8 +1,11 @@
-#ifndef _ARTDAQ_DATABASE_CONFTOOLIFC_H_
-#define _ARTDAQ_DATABASE_CONFTOOLIFC_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_CONFTOOLIFC_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_CONFTOOLIFC_H_
 
 #include "artdaq-database/ConfigurationDB/common.h"
 #include "artdaq-database/ConfigurationDB/configuration_common.h"
+
+#include <memory>
+#include <string>
 
 namespace db = artdaq::database;
 namespace cf = db::configuration;
@@ -139,4 +142,4 @@ result_t conftool_impl(std::unique_ptr<OPTS>& options, int argc, char* argv[]) {
 }
 }  // namespace database
 }  // namespace artdaq
-#endif /* _ARTDAQ_DATABASE_CONFTOOLIFC_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_CONFTOOLIFC_H_

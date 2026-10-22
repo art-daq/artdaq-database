@@ -9,6 +9,11 @@
 #include "artdaq-database/JsonDocument/JSONDocumentBuilder.h"
 #include "artdaq-database/StorageProviders/UconDB/provider_ucondb.h"
 
+#include <list>
+#include <string>
+#include <utility>
+#include <vector>
+
 #ifdef TRACE_NAME
 #undef TRACE_NAME
 #endif

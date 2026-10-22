@@ -1,5 +1,9 @@
 #include "artdaq-database/JsonDocument/JSONDocumentBuilder.h"
 
+#include <algorithm>
+#include <list>
+#include <memory>
+#include <string>
 #include <utility>
 #include "artdaq-database/JsonDocument/common.h"
 

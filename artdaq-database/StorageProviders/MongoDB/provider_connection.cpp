@@ -5,6 +5,8 @@
 
 #include "artdaq-database/SharedCommon/sharedcommon_common.h"
 
+#include <boost/filesystem.hpp>
+
 #include <bsoncxx/builder/basic/helpers.hpp>
 #include <bsoncxx/builder/stream/array.hpp>
 #include <bsoncxx/builder/stream/document.hpp>
@@ -16,12 +18,14 @@
 #include <bsoncxx/types.hpp>
 #include <bsoncxx/types/value.hpp>
 
-#include <boost/filesystem.hpp>
 #include <mongocxx/client.hpp>
 #include <mongocxx/instance.hpp>
 #include <mongocxx/options/find.hpp>
 #include <mongocxx/pipeline.hpp>
+
+#include <memory>
 #include <mutex>
+#include <string>
 #include <thread>
 #include <unordered_map>
 #include <utility>

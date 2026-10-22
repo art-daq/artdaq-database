@@ -1,6 +1,8 @@
 #include "artdaq-database/SharedCommon/returned_result.h"
 #include "artdaq-database/SharedCommon/shared_exceptions.h"
 
+#include <string>
+
 #ifdef TRACE_NAME
 #undef TRACE_NAME
 #endif

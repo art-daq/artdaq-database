@@ -1,5 +1,5 @@
-#ifndef _ARTDAQ_DATABASE_DATAFORMATS_FHICL_CONVERTFHICL2JSONDB_H_
-#define _ARTDAQ_DATABASE_DATAFORMATS_FHICL_CONVERTFHICL2JSONDB_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_FHICL_CONVERTFHICL2JSONDB_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_FHICL_CONVERTFHICL2JSONDB_H_
 
 #include "artdaq-database/DataFormats/Fhicl/fhiclcpplib_includes.h"
 #include "artdaq-database/DataFormats/common.h"
@@ -8,6 +8,10 @@
 #include "artdaq-database/DataFormats/Fhicl/fhicl_reader.h"
 #include "artdaq-database/DataFormats/Fhicl/fhicl_types.h"
 #include "artdaq-database/DataFormats/Json/json_types.h"
+
+#include <string>
+#include <tuple>
+#include <utility>
 
 namespace artdaq {
 namespace database {
@@ -98,4 +102,4 @@ void FCL2JSON();
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_DATAFORMATS_FHICL_CONVERTFHICL2JSONDB_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_FHICL_CONVERTFHICL2JSONDB_H_

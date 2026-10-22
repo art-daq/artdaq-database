@@ -1,3 +1,5 @@
+#include <memory>
+#include <string>
 #include <utility>
 
 #include "artdaq-database/ConfigurationDB/common.h"

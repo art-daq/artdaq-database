@@ -1,7 +1,10 @@
-#ifndef _ARTDAQ_DATABASE_PROVIDER_UCOND_H_
-#define _ARTDAQ_DATABASE_PROVIDER_UCOND_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_UCONDB_PROVIDER_UCONDB_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_UCONDB_PROVIDER_UCONDB_H_
 
 #include "artdaq-database/StorageProviders/storage_providers.h"
+
+#include <memory>
+#include <string>
 
 namespace artdaq {
 namespace database {
@@ -66,4 +69,4 @@ using DB = UconDB;
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_PROVIDER_UCOND_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_UCONDB_PROVIDER_UCONDB_H_

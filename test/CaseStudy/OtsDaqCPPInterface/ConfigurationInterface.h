@@ -1,5 +1,5 @@
-#ifndef _ots_ConfigurationInterface_h_
-#define _ots_ConfigurationInterface_h_
+#ifndef ARTDAQ_DATABASE_TEST_CASESTUDY_OTSDAQCPPINTERFACE_CONFIGURATIONINTERFACE_H_
+#define ARTDAQ_DATABASE_TEST_CASESTUDY_OTSDAQCPPINTERFACE_CONFIGURATIONINTERFACE_H_
 
 #include <sstream>
 #include <string>
@@ -50,4 +50,4 @@ struct TestConfiguration002 final : public ConfigurationBase {
 };
 }  // namespace ots
 
-#endif  //_ots_DatabaseConfigurationInterface_h_
+#endif  // ARTDAQ_DATABASE_TEST_CASESTUDY_OTSDAQCPPINTERFACE_CONFIGURATIONINTERFACE_H_

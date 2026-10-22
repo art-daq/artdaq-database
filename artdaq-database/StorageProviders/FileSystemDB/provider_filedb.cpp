@@ -7,6 +7,13 @@
 #include "artdaq-database/BasicTypes/basictypes.h"
 #include "artdaq-database/JsonDocument/JSONDocumentBuilder.h"
 
+#include <algorithm>
+#include <list>
+#include <map>
+#include <set>
+#include <string>
+#include <vector>
+
 /*
 #include <wordexp.h>
 #include <boost/filesystem.hpp>

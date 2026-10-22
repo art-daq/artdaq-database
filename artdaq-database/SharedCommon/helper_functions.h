@@ -1,6 +1,7 @@
-#ifndef _ARTDAQ_DATABASE_DATAFORMATS_COMMON_HEALPERFUNCTIONS_H_
-#define _ARTDAQ_DATABASE_DATAFORMATS_COMMON_HEALPERFUNCTIONS_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_SHAREDCOMMON_HELPER_FUNCTIONS_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_SHAREDCOMMON_HELPER_FUNCTIONS_H_
 
+#include <algorithm>
 #include <cassert>
 #include <chrono>
 #include <iostream>
@@ -121,4 +122,4 @@ std::string replace_all(std::string const&, std::string const&, std::string cons
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_DATAFORMATS_FHICL_HEALPERFUNCTIONS_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_SHAREDCOMMON_HELPER_FUNCTIONS_H_

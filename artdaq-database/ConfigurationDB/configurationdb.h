@@ -1,5 +1,5 @@
-#ifndef _ARTDAQ_DATABASE_CONFIGURATIONDB_H_
-#define _ARTDAQ_DATABASE_CONFIGURATIONDB_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_CONFIGURATIONDB_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_CONFIGURATIONDB_H_
 
 #include "artdaq-database/ConfigurationDB/dboperation_exportimport.h"
 #include "artdaq-database/ConfigurationDB/dboperation_managealiases.h"
@@ -18,4 +18,4 @@ void enable_trace();
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_CONFIGURATIONDB_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_CONFIGURATIONDB_H_

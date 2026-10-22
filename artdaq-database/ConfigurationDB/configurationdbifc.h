@@ -1,14 +1,18 @@
-#ifndef _ARTDAQ_DATABASE_CONFIGURATIONDBIFC_H_
-#define _ARTDAQ_DATABASE_CONFIGURATIONDBIFC_H_
-
-#include <map>
-#include <set>
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_CONFIGURATIONDBIFC_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_CONFIGURATIONDBIFC_H_
 
 #include "artdaq-database/ConfigurationDB/Multitasker.h"
 #include "artdaq-database/ConfigurationDB/configurationdbifc_base.h"
 #include "artdaq-database/JsonDocument/JSONDocumentBuilder.h"
 #include "dboperation_findcompositions.h"
 #include "options_operation_manageconfigs.h"
+
+#include <algorithm>
+#include <list>
+#include <map>
+#include <set>
+#include <string>
+#include <utility>
 
 using debug::demangle;
 
@@ -911,4 +915,4 @@ struct ConfigurationInterface final {
 }  // namespace configuration
 }  // namespace database
 }  // namespace artdaq
-#endif /* _ARTDAQ_DATABASE_CONFIGURATIONDBIFC_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_CONFIGURATIONDBIFC_H_

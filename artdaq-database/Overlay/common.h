@@ -1,5 +1,5 @@
-#ifndef _ARTDAQ_DATABASE_OVERLAY_COMMON_H_
-#define _ARTDAQ_DATABASE_OVERLAY_COMMON_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_COMMON_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_COMMON_H_
 
 #include "artdaq-database/DataFormats/Json/json_common.h"
 #include "artdaq-database/DataFormats/Json/json_types_impl.h"
@@ -54,4 +54,4 @@ std::uint32_t useCompareMask(std::uint32_t = 0);
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_OVERLAY_COMMON_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_COMMON_H_

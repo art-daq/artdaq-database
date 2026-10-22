@@ -1,7 +1,9 @@
-#ifndef _ARTDAQ_DATABASE_CONFIGURATIONDB_MANAGEDOCUMENT_H_
-#define _ARTDAQ_DATABASE_CONFIGURATIONDB_MANAGEDOCUMENT_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_DBOPERATION_MANAGEDOCUMENT_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_DBOPERATION_MANAGEDOCUMENT_H_
 
 #include "artdaq-database/SharedCommon/returned_result.h"
+
+#include <string>
 
 namespace artdaq {
 namespace database {
@@ -44,4 +46,4 @@ void ManageDocuments();
 }  // namespace configuration
 }  // namespace database
 }  // namespace artdaq
-#endif /* _ARTDAQ_DATABASE_CONFIGURATIONDB_MANAGEDOCUMENT_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_DBOPERATION_MANAGEDOCUMENT_H_

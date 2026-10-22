@@ -8,6 +8,8 @@
 #define TRACE_NAME "provider_mongodb_readwrite.cpp"
 
 #include <mongocxx/options/update.hpp>
+#include <string>
+#include <vector>
 
 namespace artdaq {
 namespace database {

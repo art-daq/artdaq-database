@@ -5,7 +5,7 @@
 
 #include <cassert>
 #include <cstdlib>
-#include <ctime> /* time */
+#include <ctime>  // time
 #include <iostream>
 #include <memory>
 #include <string>

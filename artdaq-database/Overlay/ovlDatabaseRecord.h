@@ -1,5 +1,5 @@
-#ifndef _ARTDAQ_DATABASE_OVERLAY_OVLRECORD_H_
-#define _ARTDAQ_DATABASE_OVERLAY_OVLRECORD_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_OVLDATABASERECORD_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_OVLDATABASERECORD_H_
 
 #include "artdaq-database/Overlay/common.h"
 #include "artdaq-database/Overlay/ovlBookkeeping.h"
@@ -15,6 +15,10 @@
 
 #include "artdaq-database/Overlay/ovlFixedList.h"
 #include "artdaq-database/Overlay/ovlMovableList.h"
+
+#include <memory>
+#include <string>
+#include <utility>
 
 namespace artdaq {
 namespace database {
@@ -145,4 +149,4 @@ using ovlDatabaseRecordUPtr_t = std::unique_ptr<ovlDatabaseRecord>;
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_OVERLAY_OVLRECORD_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_OVLDATABASERECORD_H_

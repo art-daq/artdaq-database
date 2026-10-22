@@ -1,5 +1,5 @@
-#ifndef _ARTDAQ_DATABASE_PROVIDER_UCOND_HEADERS_H_
-#define _ARTDAQ_DATABASE_PROVIDER_UCOND_HEADERS_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_UCONDB_PROVIDER_UCONDB_HEADERS_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_UCONDB_PROVIDER_UCONDB_HEADERS_H_
 
 #include "artdaq-database/BasicTypes/basictypes.h"
 #include "artdaq-database/JsonDocument/JSONDocumentBuilder.h"
@@ -27,4 +27,4 @@ using artdaq::database::ucon::UconDBSPtr_t;
 using artdaq::database::docrecord::JSONDocument;
 using artdaq::database::docrecord::JSONDocumentBuilder;
 
-#endif /* _ARTDAQ_DATABASE_PROVIDER_UCOND_HEADERS_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_UCONDB_PROVIDER_UCONDB_HEADERS_H_

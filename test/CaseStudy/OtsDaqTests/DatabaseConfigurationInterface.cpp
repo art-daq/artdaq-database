@@ -1,11 +1,14 @@
 #include "DatabaseConfigurationInterface.h"
 
-#include <algorithm>
-#include <iterator>
-
 #include "artdaq-database/ConfigurationDB/configurationdbifc.h"
 
 #include "artdaq-database/BasicTypes/basictypes.h"
+
+#include <algorithm>
+#include <iterator>
+#include <set>
+#include <string>
+
 using artdaq::database::basictypes::JsonData;
 
 using ots::DatabaseConfigurationInterface;
@@ -16,6 +19,8 @@ using VersionInfoList_t = db::ConfigurationInterface::VersionInfoList_t;
 
 constexpr auto default_dbprovider = "filesystem";
 constexpr auto default_entity = "OTSDAQROOT";
+
+// NOLINTBEGIN(runtime/output_format, runtime/exceptions)
 
 int DatabaseConfigurationInterface::fill(ConfigurationBase* configuration, int version) const noexcept {
   auto ifc = db::ConfigurationInterface{default_dbprovider};
@@ -218,3 +223,5 @@ std::set<std::string> DatabaseConfigurationInterface::findCompositionsContaining
   std::cout << "DBI Unknown exception.\n";
   throw std::runtime_error("DBI Unknown exception.");
 }
+
+// NOLINTEND(runtime/output_format, runtime/exceptions)

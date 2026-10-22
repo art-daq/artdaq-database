@@ -1,11 +1,12 @@
-#ifndef _ARTDAQ_DATABASE_CONFIGURATIONDB_OPTIONS_OPERATION_BASE_H_
-#define _ARTDAQ_DATABASE_CONFIGURATIONDB_OPTIONS_OPERATION_BASE_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_OPTIONS_OPERATION_BASE_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_OPTIONS_OPERATION_BASE_H_
 
 #include "artdaq-database/ConfigurationDB/shared_helper_functions.h"
 #include "artdaq-database/DataFormats/shared_literals.h"
 #include "artdaq-database/SharedCommon/configuraion_api_literals.h"
 
 #include <boost/program_options.hpp>
+#include <string>
 
 namespace bpo = boost::program_options;
 
@@ -95,4 +96,4 @@ void OperationBase();
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_CONFIGURATIONDB_OPTIONS_OPERATION_BASE_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_OPTIONS_OPERATION_BASE_H_

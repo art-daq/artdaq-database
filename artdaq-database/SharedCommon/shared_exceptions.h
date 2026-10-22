@@ -1,7 +1,8 @@
-#ifndef _ARTDAQ_DATABASE_EXCEPTIONS_H_
-#define _ARTDAQ_DATABASE_EXCEPTIONS_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_SHAREDCOMMON_SHARED_EXCEPTIONS_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_SHAREDCOMMON_SHARED_EXCEPTIONS_H_
 
 #include <exception>
+#include <string>
 #include "cetlib_except/coded_exception.h"
 
 namespace debug {
@@ -57,4 +58,4 @@ class runtime_exception : public exception {
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_EXCEPTIONS_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_SHAREDCOMMON_SHARED_EXCEPTIONS_H_

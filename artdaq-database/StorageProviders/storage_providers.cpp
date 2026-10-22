@@ -3,6 +3,7 @@
 #include "artdaq-database/SharedCommon/helper_functions.h"
 
 #include <sstream>
+#include <string>
 
 namespace db = artdaq::database;
 namespace apiliteral = db::configapi::literal;

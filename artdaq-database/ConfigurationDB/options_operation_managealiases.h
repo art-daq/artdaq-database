@@ -1,9 +1,10 @@
-#ifndef _ARTDAQ_DATABASE_CONFIGURATIONDB_OPTIONS_OPERATION_MANAGEALIASES_H_
-#define _ARTDAQ_DATABASE_CONFIGURATIONDB_OPTIONS_OPERATION_MANAGEALIASES_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_OPTIONS_OPERATION_MANAGEALIASES_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_OPTIONS_OPERATION_MANAGEALIASES_H_
 
 #include "artdaq-database/ConfigurationDB/options_operation_base.h"
 
 #include <boost/program_options.hpp>
+#include <string>
 
 namespace bpo = boost::program_options;
 
@@ -84,5 +85,4 @@ inline TraceStreamer& TraceStreamer::operator<<(const artdaq::database::configur
   return *this;
 }
 }  // namespace
-#endif /* _ARTDAQ_DATABASE_CONFIGURATIONDB_OPTIONS_OPERATION_MANAGEALIASES_H_ \
-        */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_OPTIONS_OPERATION_MANAGEALIASES_H_

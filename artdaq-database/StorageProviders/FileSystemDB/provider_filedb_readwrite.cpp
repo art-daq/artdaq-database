@@ -1,5 +1,8 @@
 #include "artdaq-database/StorageProviders/FileSystemDB/provider_filedb_headers.h"
 
+#include <string>
+#include <vector>
+
 #ifdef TRACE_NAME
 #undef TRACE_NAME
 #endif

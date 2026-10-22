@@ -1,7 +1,10 @@
-#ifndef _ARTDAQ_DATABASE_JSONUTILS_JSONDOCUMENT_H_
-#define _ARTDAQ_DATABASE_JSONUTILS_JSONDOCUMENT_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_JSONDOCUMENT_JSONDOCUMENT_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_JSONDOCUMENT_JSONDOCUMENT_H_
 
 #include "artdaq-database/JsonDocument/common.h"
+
+#include <string>
+#include <vector>
 
 namespace artdaq {
 namespace database {
@@ -125,4 +128,4 @@ inline TraceStreamer& TraceStreamer::operator<<(const artdaq::database::docrecor
 }
 }  // namespace
 
-#endif /* _ARTDAQ_DATABASE_JSONUTILS_JSONDOCUMENT_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_JSONDOCUMENT_JSONDOCUMENT_H_

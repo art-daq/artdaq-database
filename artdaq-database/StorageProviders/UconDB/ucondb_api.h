@@ -1,9 +1,12 @@
-#ifndef _ARTDAQ_DATABASE_PROVIDER_UCONDAPI_H_
-#define _ARTDAQ_DATABASE_PROVIDER_UCONDAPI_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_UCONDB_UCONDB_API_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_UCONDB_UCONDB_API_H_
 
 #include "artdaq-database/SharedCommon/returned_result.h"
 #include "artdaq-database/StorageProviders/UconDB/provider_ucondb.h"
 #include "artdaq-database/StorageProviders/storage_providers.h"
+
+#include <list>
+#include <string>
 
 namespace artdaq {
 namespace database {
@@ -27,4 +30,4 @@ result_t put_object(const UconDBSPtr_t& provider, std::string const& folder, std
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_PROVIDER_UCONDAPI_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_UCONDB_UCONDB_API_H_

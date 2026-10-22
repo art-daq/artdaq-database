@@ -1,14 +1,18 @@
-#ifndef _ARTDAQ_DATABASE_PROVIDER_FILESYSTEM_INDEX_H_
-#define _ARTDAQ_DATABASE_PROVIDER_FILESYSTEM_INDEX_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_FILESYSTEMDB_PROVIDER_FILEDB_INDEX_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_FILESYSTEMDB_PROVIDER_FILEDB_INDEX_H_
 
 #include "artdaq-database/DataFormats/Json/json_common.h"
 #include "artdaq-database/StorageProviders/common.h"
 #include "artdaq-database/StorageProviders/storage_providers.h"
 
+#include <algorithm>
 #include <boost/filesystem.hpp>
 #include <map>
 #include <memory>
 #include <mutex>
+#include <string>
+#include <utility>
+#include <vector>
 
 namespace artdaq {
 namespace database {
@@ -128,4 +132,4 @@ void enable();
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_PROVIDER_FILESYSTEM_INDEX_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_FILESYSTEMDB_PROVIDER_FILEDB_INDEX_H_

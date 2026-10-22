@@ -3,6 +3,9 @@
 #include "artdaq-database/DataFormats/shared_literals.h"
 #include "helper_functions.h"
 
+#include <string>
+#include <utility>
+
 #ifdef TRACE_NAME
 #undef TRACE_NAME
 #endif

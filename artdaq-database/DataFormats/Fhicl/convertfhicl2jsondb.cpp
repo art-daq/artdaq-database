@@ -9,6 +9,8 @@
 
 #include <boost/variant/get.hpp>
 #include <cmath>
+#include <string>
+#include <utility>
 
 #ifdef TRACE_NAME
 #undef TRACE_NAME

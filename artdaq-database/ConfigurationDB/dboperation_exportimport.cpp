@@ -12,6 +12,10 @@
 
 #include "artdaq-database/DataFormats/Json/json_common.h"
 
+#include <algorithm>
+#include <string>
+#include <vector>
+
 #ifdef TRACE_NAME
 #undef TRACE_NAME
 #endif

@@ -9,9 +9,13 @@
 #include "artdaq-database/StorageProviders/FileSystemDB/provider_filedb.h"
 
 #include <cstdio>
+#include <list>
 #include <regex>
 #include <set>
 #include <sstream>
+#include <string>
+#include <utility>
+#include <vector>
 
 #ifdef TRACE_NAME
 #undef TRACE_NAME
