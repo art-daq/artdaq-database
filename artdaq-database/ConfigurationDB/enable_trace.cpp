@@ -6,7 +6,9 @@
 #include "artdaq-database/JsonDocument/JSONDocumentBuilder.h"
 #include "artdaq-database/StorageProviders/FileSystemDB/provider_filedb.h"
 #include "artdaq-database/StorageProviders/FileSystemDB/provider_filedb_index.h"
+#ifdef ARTDAQ_DATABASE_WITH_MONGODB
 #include "artdaq-database/StorageProviders/MongoDB/provider_mongodb.h"
+#endif
 
 namespace t = artdaq::database::configuration::json;
 
@@ -38,7 +40,9 @@ void t::enable_trace() {
   artdaq::database::filesystem::index::debug::enable();
 
   artdaq::database::filesystem::debug::enable();
+#ifdef ARTDAQ_DATABASE_WITH_MONGODB
   artdaq::database::mongo::debug::enable();
+#endif
 
   artdaq::database::docrecord::debug::JSONDocumentBuilder();
   artdaq::database::docrecord::debug::JSONDocument();

@@ -6,7 +6,9 @@ cet_make_library(
 )
 
 
-add_subdirectory(MongoDB)
+if(WITH_MONGODB)
+  add_subdirectory(MongoDB)
+endif()
 add_subdirectory(FileSystemDB)
 add_subdirectory(UconDB)
 
