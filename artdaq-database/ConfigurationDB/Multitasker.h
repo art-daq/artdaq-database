@@ -1,5 +1,8 @@
 #ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_MULTITASKER_H_
 #define ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_MULTITASKER_H_
+
+#include "artdaq-database/SharedCommon/returned_result.h"
+
 #include <algorithm>
 #include <atomic>
 #include <chrono>
@@ -14,7 +17,6 @@
 #include <string>
 #include <thread>
 #include <vector>
-#include "artdaq-database/SharedCommon/returned_result.h"
 
 namespace artdaq {
 namespace database {

@@ -1,13 +1,13 @@
 #ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_DISPATCH_SIGNATURES_H_
 #define ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_DISPATCH_SIGNATURES_H_
 
+#include "artdaq-database/ConfigurationDB/operation_dispatch.h"
+
 #include <cstring>
 #include <map>
 #include <memory>
 #include <string>
 #include <utility>
-
-#include "artdaq-database/ConfigurationDB/operation_dispatch.h"
 
 namespace artdaq {
 namespace database {

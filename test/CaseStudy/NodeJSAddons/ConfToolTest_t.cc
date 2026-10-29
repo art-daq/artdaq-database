@@ -1,18 +1,18 @@
+#include "artdaq-database/BuildInfo/printStackTrace.h"
+#include "artdaq-database/BuildInfo/process_exit_codes.h"
+#include "artdaq-database/ConfigurationDB/configurationdb.h"
+#include "artdaq-database/FhiclJson/fhicljsondb.h"
+#include "artdaq-database/StorageProviders/FileSystemDB/provider_filedb.h"
+#include "artdaq-database/StorageProviders/MongoDB/provider_mongodb.h"
+#include "artdaq-database/JsonDocument/JSONDocumentBuilder.h"
+
+#include "cetlib/coded_exception.h"
+
 #include <boost/program_options.hpp>
 #include <fstream>
 #include <iostream>
 #include <streambuf>
 #include <string>
-#include "artdaq-database/BuildInfo/printStackTrace.h"
-#include "artdaq-database/BuildInfo/process_exit_codes.h"
-#include "artdaq-database/ConfigurationDB/configurationdb.h"
-#include "cetlib/coded_exception.h"
-
-#include "artdaq-database/FhiclJson/fhicljsondb.h"
-#include "artdaq-database/StorageProviders/FileSystemDB/provider_filedb.h"
-#include "artdaq-database/StorageProviders/MongoDB/provider_mongodb.h"
-
-#include "artdaq-database/JsonDocument/JSONDocumentBuilder.h"
 
 namespace bpo = boost::program_options;
 

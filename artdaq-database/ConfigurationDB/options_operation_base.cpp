@@ -2,8 +2,6 @@
 
 #include "artdaq-database/ConfigurationDB/options_operation_base.h"
 
-#include <string>
-#include <utility>
 #include "artdaq-database/ConfigurationDB/shared_helper_functions.h"
 
 #include "artdaq-database/DataFormats/shared_literals.h"
@@ -13,6 +11,9 @@
 #include "artdaq-database/DataFormats/Json/json_reader.h"
 #include "artdaq-database/DataFormats/Json/json_writer.h"
 #include "artdaq-database/JsonDocument/JSONDocument.h"
+
+#include <string>
+#include <utility>
 
 #ifdef TRACE_NAME
 #undef TRACE_NAME

@@ -1,15 +1,6 @@
 #define BOOST_TEST_DYN_LINK
 #define BOOST_TEST_MODULE (DatabaseConfigurationInterface test)
 
-#include <boost/test/unit_test.hpp>
-
-#include <cassert>
-#include <cstdlib>
-#include <ctime>  // time
-#include <iostream>
-#include <memory>
-#include <string>
-
 #include "../DatabaseConfigurationInterface.h"
 #include "artdaq-database/JsonDocument/JSONDocument.h"
 
@@ -24,6 +15,15 @@
 
 #include "artdaq-database/DataFormats/Json/json_reader.h"
 #include "artdaq-database/DataFormats/shared_literals.h"
+
+#include <boost/test/unit_test.hpp>
+
+#include <cassert>
+#include <cstdlib>
+#include <ctime>  // time
+#include <iostream>
+#include <memory>
+#include <string>
 
 struct TestData {
   TestData() {
