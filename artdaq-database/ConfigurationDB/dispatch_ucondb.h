@@ -1,7 +1,9 @@
-#ifndef _ARTDAQ_DATABASE_CONFIGURATIONDB_DISPATCH_UCOND_H_
-#define _ARTDAQ_DATABASE_CONFIGURATIONDB_DISPATCH_UCOND_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_DISPATCH_UCONDB_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_DISPATCH_UCONDB_H_
 
 #include "artdaq-database/ConfigurationDB/common.h"
+
+#include <vector>
 
 namespace artdaq {
 namespace database {
@@ -50,4 +52,4 @@ void UconDB();
 }  // namespace configuration
 }  // namespace database
 }  // namespace artdaq
-#endif /* _ARTDAQ_DATABASE_CONFIGURATIONDB_DISPATCH_UCOND_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_DISPATCH_UCONDB_H_

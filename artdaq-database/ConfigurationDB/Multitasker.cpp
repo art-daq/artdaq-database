@@ -1,7 +1,11 @@
 #include "artdaq-database/ConfigurationDB/Multitasker.h"
 #include "artdaq-database/ConfigurationDB/common.h"
 
+#include <algorithm>
 #include <cassert>
+#include <list>
+#include <string>
+#include <utility>
 
 #ifdef TRACE_NAME
 #undef TRACE_NAME

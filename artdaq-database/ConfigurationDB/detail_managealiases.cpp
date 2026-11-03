@@ -15,6 +15,10 @@
 #include "artdaq-database/ConfigurationDB/options_operations.h"
 #include "artdaq-database/JsonDocument/JSONDocumentBuilder.h"
 
+#include <map>
+#include <string>
+#include <vector>
+
 #ifdef TRACE_NAME
 #undef TRACE_NAME
 #endif

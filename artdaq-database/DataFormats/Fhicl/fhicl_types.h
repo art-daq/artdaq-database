@@ -1,5 +1,5 @@
-#ifndef _ARTDAQ_DATABASE_FHICLTYPES_H_
-#define _ARTDAQ_DATABASE_FHICLTYPES_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_FHICL_FHICL_TYPES_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_FHICL_FHICL_TYPES_H_
 
 #include <boost/fusion/adapted/struct/adapt_struct.hpp>
 #include <boost/fusion/include/adapt_struct.hpp>
@@ -40,4 +40,4 @@ BOOST_FUSION_ADAPT_STRUCT(fcl::key_t, (fcl::optional_comment_t, comment)(fcl::ba
 
 BOOST_FUSION_ADAPT_STRUCT(fcl::value_t, (fcl::variant_value_t, value)(fcl::optional_annotation_t, annotation))
 
-#endif /* _ARTDAQ_DATABASE_FHICLTYPES_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_FHICL_FHICL_TYPES_H_

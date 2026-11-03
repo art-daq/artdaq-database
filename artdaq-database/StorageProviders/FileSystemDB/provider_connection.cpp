@@ -9,6 +9,8 @@
 #include "artdaq-database/BasicTypes/basictypes.h"
 #include "artdaq-database/JsonDocument/JSONDocumentBuilder.h"
 
+#include <string>
+
 /*
 #include <wordexp.h>
 #include <boost/filesystem.hpp>

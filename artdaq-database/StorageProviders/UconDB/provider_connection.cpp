@@ -1,9 +1,10 @@
-#include <utility>
-
 #include "artdaq-database/BasicTypes/basictypes.h"
 #include "artdaq-database/JsonDocument/JSONDocumentBuilder.h"
 #include "artdaq-database/SharedCommon/common.h"
 #include "artdaq-database/StorageProviders/UconDB/provider_ucondb.h"
+
+#include <string>
+#include <utility>
 
 #ifdef TRACE_NAME
 #undef TRACE_NAME

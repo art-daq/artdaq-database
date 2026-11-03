@@ -1,7 +1,9 @@
-#ifndef _ARTDAQ_DATABASE_DOCRECORD_EXCEPTIONS_H_
-#define _ARTDAQ_DATABASE_DOCRECORD_EXCEPTIONS_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_JSONDOCUMENT_DOCRECORD_EXCEPTIONS_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_JSONDOCUMENT_DOCRECORD_EXCEPTIONS_H_
 
 #include "artdaq-database/SharedCommon/shared_exceptions.h"
+
+#include <string>
 
 namespace artdaq {
 namespace database {
@@ -22,4 +24,4 @@ class readonly_exception : public exception {
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_JSONRECORD_EXCEPTIONS_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_JSONDOCUMENT_DOCRECORD_EXCEPTIONS_H_

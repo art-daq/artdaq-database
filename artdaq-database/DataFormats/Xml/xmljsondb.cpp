@@ -6,6 +6,8 @@
 #include "artdaq-database/DataFormats/Xml/xml_common.h"
 #include "artdaq-database/DataFormats/Xml/xmljsondb.h"
 
+#include <string>
+
 #ifdef TRACE_NAME
 #undef TRACE_NAME
 #endif

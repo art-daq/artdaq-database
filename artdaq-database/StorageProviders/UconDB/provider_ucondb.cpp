@@ -4,6 +4,8 @@
 #include "artdaq-database/SharedCommon/common.h"
 #include "artdaq-database/StorageProviders/UconDB/ucondb_api.h"
 
+#include <vector>
+
 #ifdef TRACE_NAME
 #undef TRACE_NAME
 #endif

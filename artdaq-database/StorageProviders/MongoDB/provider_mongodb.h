@@ -1,10 +1,12 @@
-#ifndef _ARTDAQ_DATABASE_PROVIDER_MONGO_H_
-#define _ARTDAQ_DATABASE_PROVIDER_MONGO_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_MONGODB_PROVIDER_MONGODB_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_MONGODB_PROVIDER_MONGODB_H_
 
 #include "artdaq-database/StorageProviders/storage_providers.h"
 
+#include <memory>
 #include <mongocxx/client.hpp>
 #include <mongocxx/instance.hpp>
+#include <string>
 
 namespace artdaq {
 namespace database {
@@ -66,4 +68,4 @@ using DB = MongoDB;
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_PROVIDER_MONGO_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_MONGODB_PROVIDER_MONGODB_H_

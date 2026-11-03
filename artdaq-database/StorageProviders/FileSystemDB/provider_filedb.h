@@ -1,9 +1,12 @@
-#ifndef _ARTDAQ_DATABASE_PROVIDER_FILESYSTEM_H_
-#define _ARTDAQ_DATABASE_PROVIDER_FILESYSTEM_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_FILESYSTEMDB_PROVIDER_FILEDB_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_FILESYSTEMDB_PROVIDER_FILEDB_H_
 
 #include "artdaq-database/StorageProviders/storage_providers.h"
 
 #include <boost/filesystem.hpp>
+#include <list>
+#include <memory>
+#include <string>
 #include <vector>
 
 namespace artdaq {
@@ -72,4 +75,4 @@ using DB = FileSystemDB;
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_PROVIDER_FILESYSTEM_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_FILESYSTEMDB_PROVIDER_FILEDB_H_

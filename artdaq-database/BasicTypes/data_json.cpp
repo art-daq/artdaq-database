@@ -1,5 +1,7 @@
 #include "artdaq-database/BasicTypes/data_json.h"
+
 #include <iostream>
+#include <string>
 #include <utility>
 
 #ifdef TRACE_NAME

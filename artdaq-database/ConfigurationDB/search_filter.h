@@ -1,7 +1,9 @@
-#ifndef _ARTDAQ_DATABASE_CONFIGURATIONDB_SEARCH_FILTER_H_
-#define _ARTDAQ_DATABASE_CONFIGURATIONDB_SEARCH_FILTER_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_SEARCH_FILTER_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_SEARCH_FILTER_H_
 
 #include "artdaq-database/ConfigurationDB/common.h"
+
+#include <tuple>
 
 namespace artdaq {
 namespace database {
@@ -20,4 +22,4 @@ class filters {
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_CONFIGURATIONDB_SEARCH_FILTER_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_SEARCH_FILTER_H_

@@ -1,10 +1,13 @@
-#ifndef _ARTDAQ_DATABASE_OVERLAY_OVLUPDATE_H_
-#define _ARTDAQ_DATABASE_OVERLAY_OVLUPDATE_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_OVLUPDATE_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_OVLUPDATE_H_
 
 #include "artdaq-database/Overlay/common.h"
 #include "artdaq-database/Overlay/ovlKeyValue.h"
 #include "artdaq-database/Overlay/ovlKeyValueTimeStamp.h"
 #include "artdaq-database/Overlay/ovlTimeStamp.h"
+
+#include <memory>
+#include <string>
 
 namespace artdaq {
 namespace database {
@@ -53,4 +56,4 @@ using ovlUpdateUPtr_t = std::unique_ptr<ovlUpdate>;
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_OVERLAY_OVLUPDATE_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_OVLUPDATE_H_

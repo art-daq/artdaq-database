@@ -1,10 +1,12 @@
-#ifndef _ARTDAQ_DATABASE_DATAFORMATS_JSON_READER_H_
-#define _ARTDAQ_DATABASE_DATAFORMATS_JSON_READER_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_JSON_JSON_READER_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_JSON_JSON_READER_H_
 
 #include "artdaq-database/DataFormats/Json/json_types.h"
 #include "artdaq-database/DataFormats/common.h"
 
 #include <boost/spirit/include/qi.hpp>
+#include <string>
+#include <utility>
 
 namespace artdaq {
 namespace database {
@@ -59,4 +61,4 @@ std::pair<bool, std::string> compare_json_objects(std::string const&, std::strin
 }  // namespace json
 }  // namespace database
 }  // namespace artdaq
-#endif /* _ARTDAQ_DATABASE_DATAFORMATS_JSON_READER_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_JSON_JSON_READER_H_

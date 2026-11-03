@@ -1,13 +1,13 @@
-#ifndef _ARTDAQ_DATABASE_CONFIGURATIONDB_DISPATCH_SIGNATURES_H_
-#define _ARTDAQ_DATABASE_CONFIGURATIONDB_DISPATCH_SIGNATURES_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_DISPATCH_SIGNATURES_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_DISPATCH_SIGNATURES_H_
+
+#include "artdaq-database/ConfigurationDB/operation_dispatch.h"
 
 #include <cstring>
 #include <map>
 #include <memory>
 #include <string>
 #include <utility>
-
-#include "artdaq-database/ConfigurationDB/operation_dispatch.h"
 
 namespace artdaq {
 namespace database {
@@ -41,4 +41,4 @@ operations_map_t& registerOperation(std::string name, Args&&... args) {
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_CONFIGURATIONDB_DISPATCH_SIGNATURES_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_DISPATCH_SIGNATURES_H_

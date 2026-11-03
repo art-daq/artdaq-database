@@ -5,11 +5,13 @@
 
 #include <sys/utsname.h>
 #include <wordexp.h>
+#include <algorithm>
 #include <chrono>
 #include <clocale>
 #include <ctime>
 #include <fstream>
 #include <regex>
+#include <string>
 
 #ifdef TRACE_NAME
 #undef TRACE_NAME

@@ -7,6 +7,8 @@
 #include "artdaq-database/DataFormats/shared_literals.h"
 #include "artdaq-database/SharedCommon/configuraion_api_literals.h"
 
+#include <string>
+
 #ifdef TRACE_NAME
 #undef TRACE_NAME
 #endif

@@ -1,5 +1,5 @@
-#ifndef _ARTDAQ_DATABASE_PROVIDER_MONGO_HEADERS_H_
-#define _ARTDAQ_DATABASE_PROVIDER_MONGO_HEADERS_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_MONGODB_PROVIDER_MONGODB_HEADERS_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_MONGODB_PROVIDER_MONGODB_HEADERS_H_
 
 #include "artdaq-database/BasicTypes/basictypes.h"
 #include "artdaq-database/StorageProviders/MongoDB/mongo_json.h"
@@ -50,4 +50,4 @@ using artdaq::database::mongo::MongoDB;
 namespace jsonliteral = artdaq::database::dataformats::literal;
 namespace apiliteral = artdaq::database::configapi::literal;
 
-#endif /* _ARTDAQ_DATABASE_PROVIDER_MONGO_HEADERS_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_MONGODB_PROVIDER_MONGODB_HEADERS_H_

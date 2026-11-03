@@ -1,3 +1,6 @@
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_SWIGBINDINGS_PYTHON_CONFTOOL_CONFTOOL_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_SWIGBINDINGS_PYTHON_CONFTOOL_CONFTOOL_H_
+
 #include <string>
 #include <utility>
 
@@ -51,3 +54,5 @@ result_t fhicl_to_json(std::string const& fcl, std::string const& filename);  //
 result_t json_to_fhicl(std::string const& jsn, std::string& filename);        // utility function
 #endif
 void enable_trace();
+
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_SWIGBINDINGS_PYTHON_CONFTOOL_CONFTOOL_H_

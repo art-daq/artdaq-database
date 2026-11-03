@@ -1,9 +1,14 @@
-#ifndef _ARTDAQ_DATABASE_DOCRECORD_JSONDOCUMENTBUILDER_H_
-#define _ARTDAQ_DATABASE_DOCRECORD_JSONDOCUMENTBUILDER_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_JSONDOCUMENT_JSONDOCUMENTBUILDER_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_JSONDOCUMENT_JSONDOCUMENTBUILDER_H_
 
 #include "artdaq-database/JsonDocument/JSONDocument.h"
 #include "artdaq-database/JsonDocument/common.h"
 #include "artdaq-database/Overlay/JSONDocumentOverlay.h"
+
+#include <list>
+#include <memory>
+#include <string>
+#include <utility>
 
 namespace artdaq {
 namespace database {
@@ -113,4 +118,4 @@ std::ostream& operator<<(std::ostream&, JSONDocumentBuilder const&);
 }  // namespace docrecord
 }  // namespace database
 }  // namespace artdaq
-#endif /* _ARTDAQ_DATABASE_DOCRECORD_JSONDOCUMENTBUILDER_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_JSONDOCUMENT_JSONDOCUMENTBUILDER_H_

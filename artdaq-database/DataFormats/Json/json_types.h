@@ -1,10 +1,13 @@
-#ifndef _ARTDAQ_DATABASE_JSONTYPES_H_
-#define _ARTDAQ_DATABASE_JSONTYPES_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_JSON_JSON_TYPES_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_JSON_JSON_TYPES_H_
+
+#include "artdaq-database/DataFormats/common.h"
+#include "artdaq-database/DataFormats/shared_types.h"
 
 #include <boost/fusion/adapted/struct/adapt_struct.hpp>
 #include <boost/fusion/include/adapt_struct.hpp>
-#include "artdaq-database/DataFormats/common.h"
-#include "artdaq-database/DataFormats/shared_types.h"
+#include <string>
+#include <utility>
 
 namespace artdaq {
 namespace database {
@@ -85,4 +88,4 @@ namespace jsn = artdaq::database::json;
 
 BOOST_FUSION_ADAPT_STRUCT(jsn::data_t, (jsn::key_t, key)(jsn::value_t, value))
 
-#endif /* _ARTDAQ_DATABASE_JSONTYPES_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_JSON_JSON_TYPES_H_

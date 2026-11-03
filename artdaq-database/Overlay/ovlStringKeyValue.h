@@ -1,8 +1,10 @@
-#ifndef _ARTDAQ_DATABASE_OVERLAY_OVLSTRKEYVALUE_H_
-#define _ARTDAQ_DATABASE_OVERLAY_OVLSTRKEYVALUE_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_OVLSTRINGKEYVALUE_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_OVLSTRINGKEYVALUE_H_
 
 #include "artdaq-database/Overlay/common.h"
 #include "artdaq-database/Overlay/ovlKeyValue.h"
+
+#include <string>
 
 namespace artdaq {
 namespace database {
@@ -55,4 +57,4 @@ result_t ovlStringKeyValue<mask>::operator==(ovlStringKeyValue const& other) con
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_OVERLAY_OVLSTRKEYVALUE_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_OVLSTRINGKEYVALUE_H_

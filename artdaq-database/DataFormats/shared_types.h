@@ -1,11 +1,13 @@
-#ifndef _ARTDAQ_DATABASE_SHAREDTYPES_H_
-#define _ARTDAQ_DATABASE_SHAREDTYPES_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_SHARED_TYPES_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_SHARED_TYPES_H_
 
 #include <stdexcept>
 #include <string>
 
 #include <boost/optional.hpp>
 #include <boost/variant.hpp>
+#include <list>
+#include <utility>
 
 namespace artdaq {
 namespace database {
@@ -248,4 +250,4 @@ unwrapper<A> unwrap(A& any) {
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_SHAREDTYPES_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_SHARED_TYPES_H_

@@ -1,7 +1,9 @@
-#ifndef _ARTDAQ_DATABASE_CONFIGURATIONDB_MANAGEALIAS_H_
-#define _ARTDAQ_DATABASE_CONFIGURATIONDB_MANAGEALIAS_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_DBOPERATION_MANAGEALIASES_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_DBOPERATION_MANAGEALIASES_H_
 
 #include "artdaq-database/SharedCommon/returned_result.h"
+
+#include <string>
 
 namespace artdaq {
 namespace database {
@@ -40,4 +42,4 @@ void ManageAliases();
 }  // namespace configuration
 }  // namespace database
 }  // namespace artdaq
-#endif /* _ARTDAQ_DATABASE_CONFIGURATIONDB_VERSIONALIAS_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_DBOPERATION_MANAGEALIASES_H_

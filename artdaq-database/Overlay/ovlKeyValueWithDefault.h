@@ -1,5 +1,5 @@
-#ifndef _ARTDAQ_DATABASE_OVERLAY_OVLKEYVALUEWDEFAULT_H_
-#define _ARTDAQ_DATABASE_OVERLAY_OVLKEYVALUEWDEFAULT_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_OVLKEYVALUEWITHDEFAULT_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_OVLKEYVALUEWITHDEFAULT_H_
 
 #include "artdaq-database/Overlay/common.h"
 #include "artdaq-database/Overlay/ovlKeyValue.h"
@@ -57,4 +57,4 @@ result_t ovlKeyValueWithDefault<mask>::operator==(ovlKeyValueWithDefault const& 
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_OVERLAY_OVLKEYVALUEWDEFAULT_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_OVERLAY_OVLKEYVALUEWITHDEFAULT_H_

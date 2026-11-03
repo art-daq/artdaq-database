@@ -12,6 +12,11 @@
 #include "artdaq-database/JsonDocument/JSONDocumentBuilder.h"
 #include "artdaq-database/SharedCommon/helper_functions.h"
 
+#include <list>
+#include <map>
+#include <string>
+#include <vector>
+
 #ifdef TRACE_NAME
 #undef TRACE_NAME
 #endif

@@ -1,5 +1,5 @@
-#ifndef _ARTDAQ_DATABASE_DATAFORMATS_FHICL_FHICL_WRITER_H_
-#define _ARTDAQ_DATABASE_DATAFORMATS_FHICL_FHICL_WRITER_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_FHICL_FHICL_WRITER_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_FHICL_FHICL_WRITER_H_
 
 #include "artdaq-database/DataFormats/Fhicl/fhicl_types.h"
 #include "artdaq-database/DataFormats/Json/json_types.h"
@@ -7,6 +7,8 @@
 
 #include <boost/spirit/home/karma/char/char.hpp>
 #include <boost/spirit/include/karma.hpp>
+#include <string>
+#include <vector>
 
 namespace artdaq {
 namespace database {
@@ -73,4 +75,4 @@ void FhiclWriter();
 }  // namespace fhicl
 }  // namespace database
 }  // namespace artdaq
-#endif /* _ARTDAQ_DATABASE_DATAFORMATS_FHICL_FHICL_WRITER_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_FHICL_FHICL_WRITER_H_

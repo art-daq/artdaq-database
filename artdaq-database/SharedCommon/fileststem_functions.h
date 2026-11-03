@@ -1,5 +1,5 @@
-#ifndef _ARTDAQ_DATABASE_FILESYSTEM_FUNCTIONS_H_
-#define _ARTDAQ_DATABASE_FILESYSTEM_FUNCTIONS_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_SHAREDCOMMON_FILESTSTEM_FUNCTIONS_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_SHAREDCOMMON_FILESTSTEM_FUNCTIONS_H_
 
 #include <list>
 #include <string>
@@ -29,4 +29,4 @@ std::string const& tarbzip2base64_to_dir(std::string const& /*bzip2base64*/, std
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_FILESYSTEM_FUNCTIONS_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_SHAREDCOMMON_FILESTSTEM_FUNCTIONS_H_

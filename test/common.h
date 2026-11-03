@@ -1,5 +1,5 @@
-#ifndef _ARTDAQ_DATABASE_TEST_COMMON_H_
-#define _ARTDAQ_DATABASE_TEST_COMMON_H_
+#ifndef ARTDAQ_DATABASE_TEST_COMMON_H_
+#define ARTDAQ_DATABASE_TEST_COMMON_H_
 
 #include "artdaq-database/DataFormats/shared_literals.h"
 #include "artdaq-database/SharedCommon/configuraion_api_literals.h"
@@ -14,4 +14,4 @@ namespace db = artdaq::database;
 namespace jsonliteral = db::dataformats::literal;
 namespace apiliteral = db::configapi::literal;
 
-#endif /* _ARTDAQ_DATABASE_TEST_COMMON_H_ */
+#endif  // ARTDAQ_DATABASE_TEST_COMMON_H_

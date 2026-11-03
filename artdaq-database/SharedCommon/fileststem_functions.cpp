@@ -4,6 +4,9 @@
 #include <boost/range/iterator_range.hpp>
 #include <cerrno>
 #include <cstdlib>
+#include <list>
+#include <string>
+#include <vector>
 
 #include "artdaq-database/SharedCommon/common.h"
 

@@ -1,5 +1,8 @@
-#ifndef _ARTDAQ_DATABASE_MULTITASKER_H_
-#define _ARTDAQ_DATABASE_MULTITASKER_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_MULTITASKER_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_MULTITASKER_H_
+
+#include "artdaq-database/SharedCommon/returned_result.h"
+
 #include <algorithm>
 #include <atomic>
 #include <chrono>
@@ -14,7 +17,6 @@
 #include <string>
 #include <thread>
 #include <vector>
-#include "artdaq-database/SharedCommon/returned_result.h"
 
 namespace artdaq {
 namespace database {
@@ -50,4 +52,4 @@ void Multitasker();
 }  // namespace configuration
 }  // namespace database
 }  // namespace artdaq
-#endif /* _ARTDAQ_DATABASE_CONFIGURATIONDBIFC_BASE_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_CONFIGURATIONDB_MULTITASKER_H_

@@ -17,10 +17,15 @@
 #include <bsoncxx/types.hpp>
 #include <bsoncxx/types/value.hpp>
 
+#include <list>
+#include <map>
 #include <mongocxx/client.hpp>
 #include <mongocxx/instance.hpp>
 #include <mongocxx/options/find.hpp>
 #include <mongocxx/pipeline.hpp>
+#include <set>
+#include <string>
+#include <vector>
 
 #ifdef TRACE_NAME
 #undef TRACE_NAME

@@ -1,7 +1,9 @@
-#ifndef _ARTDAQ_DATABASE_BASICTYPES_XML_H_
-#define _ARTDAQ_DATABASE_BASICTYPES_XML_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_BASICTYPES_DATA_XML_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_BASICTYPES_DATA_XML_H_
 
 #include "artdaq-database/BasicTypes/common.h"
+
+#include <string>
 
 #ifdef TRACE_NAME
 #undef TRACE_NAME
@@ -16,11 +18,11 @@ namespace basictypes {
 struct JsonData;
 
 struct XmlData final {
-  XmlData(std::string);
+  explicit XmlData(std::string);
 
   XmlData() = default;
 
-  XmlData(JsonData const&);
+  explicit XmlData(JsonData const&);
   operator JsonData() const;
   operator std::string const&() const;
 
@@ -36,7 +38,6 @@ std::ostream& operator<<(std::ostream&, artdaq::database::basictypes::XmlData co
 }  // namespace database
 }  // namespace artdaq
 
-namespace {
 template <>
 inline TraceStreamer& TraceStreamer::operator<<(const artdaq::database::basictypes::XmlData& r) {
   std::ostringstream s;
@@ -44,6 +45,5 @@ inline TraceStreamer& TraceStreamer::operator<<(const artdaq::database::basictyp
   msg_append(s.str().c_str());
   return *this;
 }
-}  // namespace
 
-#endif /* _ARTDAQ_DATABASE_BASICTYPES_FHICL_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_BASICTYPES_DATA_XML_H_

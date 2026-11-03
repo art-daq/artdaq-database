@@ -8,6 +8,7 @@
 #include "artdaq-database/SharedCommon/configuraion_api_literals.h"
 
 #include <boost/variant/get.hpp>
+#include <string>
 
 #ifdef TRACE_NAME
 #undef TRACE_NAME

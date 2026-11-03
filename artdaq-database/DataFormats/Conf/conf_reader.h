@@ -1,10 +1,12 @@
-#ifndef _ARTDAQ_DATABASE_DATAFORMATS_CONF_XML_READER_H_
-#define _ARTDAQ_DATABASE_DATAFORMATS_CONF_XML_READER_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_CONF_CONF_READER_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_CONF_CONF_READER_H_
 
 #include "artdaq-database/DataFormats/common.h"
 
 #include "artdaq-database/DataFormats/Conf/conf_types.h"
 #include "artdaq-database/DataFormats/Json/json_types.h"
+
+#include <string>
 
 namespace artdaq {
 namespace database {
@@ -23,4 +25,4 @@ void ConfReader();
 }  // namespace conf
 }  // namespace database
 }  // namespace artdaq
-#endif /* _ARTDAQ_DATABASE_DATAFORMATS_CONF_XML_READER_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_DATAFORMATS_CONF_CONF_READER_H_

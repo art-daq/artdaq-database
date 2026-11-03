@@ -1,6 +1,18 @@
 #define BOOST_TEST_DYN_LINK
 #define BOOST_TEST_MODULE (DatabaseConfigurationInterface test)
 
+#include "../DatabaseConfigurationInterface.h"
+
+#include "artdaq-database/ConfigurationDB/Multitasker.h"
+#include "artdaq-database/ConfigurationDB/configuration_common.h"
+#include "artdaq-database/ConfigurationDB/dispatch_common.h"
+#include "artdaq-database/DataFormats/Json/json_reader.h"
+#include "artdaq-database/DataFormats/shared_literals.h"
+#include "artdaq-database/JsonDocument/JSONDocument.h"
+#include "artdaq-database/JsonDocument/JSONDocumentBuilder.h"
+#include "artdaq-database/StorageProviders/FileSystemDB/provider_filedb.h"
+#include "artdaq-database/StorageProviders/MongoDB/provider_mongodb.h"
+
 #include <boost/test/unit_test.hpp>
 
 #include <cassert>
@@ -9,21 +21,6 @@
 #include <iostream>
 #include <memory>
 #include <string>
-
-#include "../DatabaseConfigurationInterface.h"
-#include "artdaq-database/JsonDocument/JSONDocument.h"
-
-#include "artdaq-database/ConfigurationDB/Multitasker.h"
-#include "artdaq-database/ConfigurationDB/configuration_common.h"
-#include "artdaq-database/ConfigurationDB/dispatch_common.h"
-
-#include "artdaq-database/JsonDocument/JSONDocument.h"
-#include "artdaq-database/JsonDocument/JSONDocumentBuilder.h"
-#include "artdaq-database/StorageProviders/FileSystemDB/provider_filedb.h"
-#include "artdaq-database/StorageProviders/MongoDB/provider_mongodb.h"
-
-#include "artdaq-database/DataFormats/Json/json_reader.h"
-#include "artdaq-database/DataFormats/shared_literals.h"
 
 struct TestData {
   TestData() {

@@ -1,5 +1,5 @@
-#ifndef _ARTDAQ_DATABASE_PROVIDERS_H_
-#define _ARTDAQ_DATABASE_PROVIDERS_H_
+#ifndef ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_STORAGE_PROVIDERS_H_
+#define ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_STORAGE_PROVIDERS_H_
 
 #include <memory>
 #include <string>
@@ -77,4 +77,4 @@ std::string make_database_metadata(std::string const& /*name*/, std::string cons
 }  // namespace database
 }  // namespace artdaq
 
-#endif /* _ARTDAQ_DATABASE_PROVIDERS_H_ */
+#endif  // ARTDAQ_DATABASE_ARTDAQ_DATABASE_STORAGEPROVIDERS_STORAGE_PROVIDERS_H_

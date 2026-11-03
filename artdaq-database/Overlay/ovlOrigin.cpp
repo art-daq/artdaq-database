@@ -2,6 +2,8 @@
 #include "artdaq-database/Overlay/ovlKeyValue.h"
 #include "artdaq-database/Overlay/ovlTimeStamp.h"
 
+#include <string>
+
 using namespace artdaq::database;
 using namespace artdaq::database::overlay;
 using namespace artdaq::database::result;

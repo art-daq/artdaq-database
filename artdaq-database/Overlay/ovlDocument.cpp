@@ -1,6 +1,9 @@
 #include "artdaq-database/Overlay/ovlDocument.h"
 #include "artdaq-database/Overlay/ovlKeyValue.h"
 
+#include <string>
+#include <utility>
+
 using namespace artdaq::database;
 using namespace artdaq::database::overlay;
 using namespace artdaq::database::result;

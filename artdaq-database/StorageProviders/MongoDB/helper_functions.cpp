@@ -4,6 +4,9 @@
 #include "artdaq-database/JsonDocument/JSONDocument.h"
 #include "artdaq-database/SharedCommon/sharedcommon_common.h"
 
+#include <string>
+#include <vector>
+
 #ifdef TRACE_NAME
 #undef TRACE_NAME
 #endif

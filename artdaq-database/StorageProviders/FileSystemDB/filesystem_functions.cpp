@@ -5,6 +5,8 @@
 #include <algorithm>
 #include <boost/filesystem.hpp>
 #include <boost/range/adaptors.hpp>
+#include <list>
+#include <string>
 
 #ifdef TRACE_NAME
 #undef TRACE_NAME
