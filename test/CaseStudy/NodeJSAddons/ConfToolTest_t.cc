@@ -2,9 +2,9 @@
 #include "artdaq-database/BuildInfo/process_exit_codes.h"
 #include "artdaq-database/ConfigurationDB/configurationdb.h"
 #include "artdaq-database/FhiclJson/fhicljsondb.h"
+#include "artdaq-database/JsonDocument/JSONDocumentBuilder.h"
 #include "artdaq-database/StorageProviders/FileSystemDB/provider_filedb.h"
 #include "artdaq-database/StorageProviders/MongoDB/provider_mongodb.h"
-#include "artdaq-database/JsonDocument/JSONDocumentBuilder.h"
 
 #include "cetlib/coded_exception.h"
 

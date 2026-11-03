@@ -3,6 +3,8 @@
 
 #include "artdaq-database/ConfigurationDB/options_operation_base.h"
 
+#include "TRACE/trace.h"
+
 #include <boost/program_options.hpp>
 #include <string>
 
