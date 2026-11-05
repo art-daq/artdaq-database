@@ -91,12 +91,19 @@ find_package(cetlib_except 1.07.00 REQUIRED QUIET)
 
 add_definitions("-DUSE_FHICLCPP=1")
 
-find_package(mongocxx REQUIRED EXPORT)
-find_package(bsoncxx REQUIRED EXPORT)
+option(WITH_MONGODB "Build the MongoDB storage provider (requires mongocxx/bsoncxx)" ON)
+if(WITH_MONGODB)
+  find_package(mongocxx REQUIRED EXPORT)
+  find_package(bsoncxx REQUIRED EXPORT)
+  add_compile_definitions(ARTDAQ_DATABASE_WITH_MONGODB)
+endif()
 
 # testing
 SET(RUN_TESTS $ENV{RUN_TESTS})
 SET(RUN_TESTS "TRUE")
+if(NOT WITH_MONGODB)
+  SET(RUN_TESTS "FALSE")
+endif()
 IF(RUN_TESTS)
   string(TOUPPER ${RUN_TESTS} RUN_TESTS_UC )
   if( ${RUN_TESTS_UC} MATCHES "TRUE" )

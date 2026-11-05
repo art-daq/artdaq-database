@@ -5,7 +5,7 @@ cet_make_exec(NAME conftool
   artdaq-database::DataFormats_Json
   artdaq-database::JsonDocument
   artdaq-database::ConfigurationDB
-  artdaq-database::StorageProviders_MongoDB
+  ${MONGO_PROVIDER_LIB}
   artdaq-database::StorageProviders_FileSystemDB
   artdaq-database::StorageProviders_UconDB
   Boost::program_options
@@ -52,7 +52,7 @@ cet_make_exec(NAME bulkloader
   artdaq-database::DataFormats_Json
   artdaq-database::JsonDocument
   artdaq-database::ConfigurationDB
-  artdaq-database::StorageProviders_MongoDB
+  ${MONGO_PROVIDER_LIB}
   artdaq-database::StorageProviders_FileSystemDB
   artdaq-database::StorageProviders_UconDB
   Boost::program_options
@@ -67,7 +67,7 @@ cet_make_exec(NAME bulkdownloader
   artdaq-database::DataFormats_Json
   artdaq-database::JsonDocument
   artdaq-database::ConfigurationDB
-  artdaq-database::StorageProviders_MongoDB
+  ${MONGO_PROVIDER_LIB}
   artdaq-database::StorageProviders_FileSystemDB
   artdaq-database::StorageProviders_UconDB
   Boost::program_options
@@ -82,7 +82,7 @@ cet_make_exec(NAME migrate_database
   artdaq-database::DataFormats_Json
   artdaq-database::JsonDocument
   artdaq-database::ConfigurationDB
-  artdaq-database::StorageProviders_MongoDB
+  ${MONGO_PROVIDER_LIB}
   artdaq-database::StorageProviders_FileSystemDB
   artdaq-database::StorageProviders_UconDB
   Boost::program_options
@@ -95,7 +95,7 @@ cet_make_exec(NAME rebuild_database_index
   artdaq-database::DataFormats_Json
   artdaq-database::JsonDocument
   artdaq-database::ConfigurationDB
-  artdaq-database::StorageProviders_MongoDB
+  ${MONGO_PROVIDER_LIB}
   artdaq-database::StorageProviders_FileSystemDB
   artdaq-database::StorageProviders_UconDB
   Boost::program_options

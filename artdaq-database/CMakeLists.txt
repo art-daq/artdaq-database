@@ -27,4 +27,6 @@ add_subdirectory(ConfigurationDB)
 #add_subdirectory(JsonConvert)
 
 add_subdirectory(Utilities)
-add_subdirectory(SWIGBindings)
+if(WITH_MONGODB)
+  add_subdirectory(SWIGBindings)
+endif()
