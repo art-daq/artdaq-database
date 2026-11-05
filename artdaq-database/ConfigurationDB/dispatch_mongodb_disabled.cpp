@@ -30,7 +30,9 @@ std::vector<JSONDocument> prov::findVersionAliases(cf::ManageAliasesOperation co
 JSONDocument prov::addConfigurationAlias(cf::ManageAliasesOperation const&, JSONDocument const&) { unsupported("addConfigurationAlias"); }
 JSONDocument prov::removeConfigurationAlias(cf::ManageAliasesOperation const&, JSONDocument const&) { unsupported("removeConfigurationAlias"); }
 std::vector<JSONDocument> prov::findConfigurations(cf::ManageDocumentOperation const&, JSONDocument const&) { unsupported("findConfigurations"); }
-std::vector<JSONDocument> prov::findCompositionsContaining(cf::ManageDocumentOperation const&, JSONDocument const&) { unsupported("findCompositionsContaining"); }
+std::vector<JSONDocument> prov::findCompositionsContaining(cf::ManageDocumentOperation const&, JSONDocument const&) {
+  unsupported("findCompositionsContaining");
+}
 JSONDocument prov::configurationComposition(cf::ManageDocumentOperation const&, JSONDocument const&) { unsupported("configurationComposition"); }
 JSONDocument prov::assignConfiguration(cf::ManageDocumentOperation const&, JSONDocument const&) { unsupported("assignConfiguration"); }
 JSONDocument prov::removeConfiguration(cf::ManageDocumentOperation const&, JSONDocument const&) { unsupported("removeConfiguration"); }
